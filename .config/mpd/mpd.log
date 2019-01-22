@@ -1,0 +1,443 @@
+Jan 14 00:16 : exception: Failed to open /home/zulu/.mpd/mpdstate: No such file or directory
+Jan 14 00:16 : config: option 'device' on line 12 was not recognized
+Jan 14 00:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 00:16 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:16 : avahi: Service 'Music Player' successfully established.
+Jan 14 00:27 : client: [0] opened from 127.0.0.1:55270
+Jan 14 00:27 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:28 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:29 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:29 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:29 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:29 : client: [0] closed
+Jan 14 00:29 : client: [1] opened from 127.0.0.1:55276
+Jan 14 00:30 : client: [1] closed
+Jan 14 00:30 : client: [2] opened from 127.0.0.1:55278
+Jan 14 00:30 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:31 : client: [2] closed
+Jan 14 00:37 : client: [3] opened from 127.0.0.1:55300
+Jan 14 00:38 : client: [3] closed
+Jan 14 00:50 : client: [4] opened from 127.0.0.1:55404
+Jan 14 00:50 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:51 : client: [4] closed
+Jan 14 00:55 : client: [5] opened from 127.0.0.1:55526
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 00:56 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 01:00 : client: [5] closed
+Jan 14 01:01 : client: [6] opened from 127.0.0.1:55538
+Jan 14 01:01 : client: [6] closed
+Jan 14 01:03 : client: [7] opened from 127.0.0.1:55568
+Jan 14 01:03 : client: [7] closed
+Jan 14 01:09 : client: [8] opened from 127.0.0.1:55662
+Jan 14 01:10 : client: [8] closed
+Jan 14 01:18 : client: [9] opened from 127.0.0.1:55686
+Jan 14 01:18 : client: [9] closed
+Jan 14 01:18 : client: [10] opened from 127.0.0.1:55688
+Jan 14 01:18 : client: [10] closed
+Jan 14 01:18 : client: [11] opened from 127.0.0.1:55690
+Jan 14 01:18 : client: [11] closed
+Jan 14 01:19 : client: [12] opened from 127.0.0.1:55736
+Jan 14 01:19 : client: [12] closed
+Jan 14 01:23 : client: [13] opened from 127.0.0.1:55772
+Jan 14 01:26 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 01:26 : client: [13] closed
+Jan 14 01:26 : client: [14] opened from 127.0.0.1:55786
+Jan 14 01:26 : client: [14] closed
+Jan 14 01:27 : client: [15] opened from 127.0.0.1:55788
+Jan 14 01:27 : client: [15] closed
+Jan 14 01:28 : client: [16] opened from 127.0.0.1:55838
+Jan 14 01:29 : client: [16] closed
+Jan 14 01:30 : client: [17] opened from 127.0.0.1:55852
+Jan 14 01:30 : client: [17] closed
+Jan 14 01:40 : client: [18] opened from 127.0.0.1:56268
+Jan 14 01:40 : client: [18] closed
+Jan 14 01:40 : client: [19] opened from 127.0.0.1:56270
+Jan 14 01:40 : client: [19] closed
+Jan 14 01:40 : client: [20] opened from 127.0.0.1:56272
+Jan 14 01:40 : client: [20] closed
+Jan 14 01:47 : client: [21] opened from 127.0.0.1:56316
+Jan 14 01:47 : exception: Failed to access /home/zulu/Music: No such file or directory
+Jan 14 01:58 : client: [21] closed
+Jan 14 02:00 : config: option 'device' on line 12 was not recognized
+Jan 14 02:00 : config: option 'mixer_device' on line 13 was not recognized
+Jan 14 02:00 : config: option 'mixer_control' on line 14 was not recognized
+Jan 14 02:00 : config: option 'mixer_index' on line 15 was not recognized
+Jan 14 02:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:00 : exception: Failed to enable output "pulse audio" [pulse]
+Jan 14 02:00 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 14 02:00 : avahi: Service 'Music Player' successfully established.
+Jan 14 02:00 : client: [0] opened from 127.0.0.1:56388
+Jan 14 02:01 : exception: No such directory
+Jan 14 02:01 : exception: Failed to open /home/zulu/.mpd/playlists/vfvf.m3u: No such file or directory
+Jan 14 02:01 : exception: No such playlist
+Jan 14 02:04 : exception: No such directory
+Jan 14 02:04 : exception: Failed to open /home/zulu/.mpd/playlists/avto.m3u: No such file or directory
+Jan 14 02:04 : exception: No such playlist
+Jan 14 02:04 : client: [0] closed
+Jan 14 02:06 : client: [1] opened from 127.0.0.1:56398
+Jan 14 02:06 : update: added last/The XX - Intro.mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - A Blunted Dedication.mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - Midnight Zone Out.mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - Peace.mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - The Soulmate that Seldom Speaks.mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - The Stars Align.mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - Experiment C (The Grand Finale).mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - You Wonder, Wonder, Wonder.mp3
+Jan 14 02:06 : update: added last/Trebles and Blues - Introductory Piece.mp3
+Jan 14 02:06 : update: added last/trebles and blues - Packed My Bags and Left.mp3
+Jan 14 02:06 : update: added last/Trebles And Blues + No Alias - In The Darkness Lies The Stars.mp3
+Jan 14 02:06 : update: added avto/Röyksopp_-_Here She Comes Again (Dj Antonio Remix).mp3
+Jan 14 02:06 : update: added avto/Триагрутрика - Вата на Доватора.mp3
+Jan 14 02:06 : update: added avto/Dj Tiesto - транс и скрипка.mp3
+Jan 14 02:06 : update: added avto/казантип - 2016_.mp3
+Jan 14 02:06 : update: added avto/estradarada-bjust-vsemogushhijj-(mp3-you.net).mp3
+Jan 14 02:06 : update: added avto/Vavan Ака Вова Селиванов –  Велосипед .mp3
+Jan 14 02:06 : update: added avto/RD87 - The Ugly Mask of Lie.mp3
+Jan 14 02:06 : update: added avto/ESTRADARADA - ГаляГуляй.mp3
+Jan 14 02:06 : update: added avto/Faze Miyake - Gunpowder.mp3
+Jan 14 02:06 : update: added avto/Aurosonic feat. Kate Louise Smith - Open Your Eyes (Drum & Bass Mix).mp3
+Jan 14 02:06 : update: added avto/ТРИАГРУТРИКА - Куда Идти После Института.mp3
+Jan 14 02:06 : update: added avto/David Guetta & Cedric Gervais_-_Would I Lie To You (Radio Edit).mp3
+Jan 14 02:06 : update: added avto/The Stone Roses - Fools gold ( OST деньги, карты и два дымящихся ствола).mp3
+Jan 14 02:06 : update: added avto/Jamiroquai - Talullah.mp3
+Jan 14 02:06 : update: added avto/KillaGram – Меня Радует .mp3
+Jan 14 02:06 : update: added avto/Казантип - Сносит крышу.mp3
+Jan 14 02:06 : update: added avto/Филадельфия.mp3
+Jan 14 02:06 : update: added avto/elektronnaya-muzyka-kazantip.mp3
+Jan 14 02:06 : update: added avto/➨Dram And Bass  - one drum and base 2011.mp3
+Jan 14 02:06 : update: added avto/Tina Turner – The Best.mp3
+Jan 14 02:06 : update: added avto/dnb_-_english_dnb_2_(eee.fm).mp3
+Jan 14 02:06 : update: added avto/Dire Straits - Sultans of Swing.mp3
+Jan 14 02:06 : update: added avto/Стинг и Эрик Клептон – Sting.mp3.mp3
+Jan 14 02:06 : update: added avto/linkin_park_and_x-dnb_-_in_the_end_dnb_(eee.fm).mp3
+Jan 14 02:06 : update: added avto/Deekline And Ed Solo - King of The Bongo ☣ [Drum 'N Bass].mp3
+Jan 14 02:06 : update: added avto/Крис Ри - And You_my_love.mp3
+Jan 14 02:06 : update: added avto/Future Prophecies - September [Drum and Bass].mp3
+Jan 14 02:06 : update: added avto/School Of Rock - (OST Школа рока).mp3
+Jan 14 02:06 : update: added avto/Крис Ри - My Religion...mp3
+Jan 14 02:06 : update: added avto/Estradarada - Минус.mp3
+Jan 14 02:06 : update: added avto/Jamiroquai - Never Gonna Be Another.mp3
+Jan 14 02:06 : update: added avto/Реальные пацаны - Колян.mp3
+Jan 14 02:06 : update: added avto/Мумий Тролль - Утекай – Утекай, в подвоpотне нас ждет маньяк  Хочет нас посадить на крючок  Kpaсавицы уже лишились своих ч.mp3
+Jan 14 02:06 : update: added avto/Spiller feat. Sophie Ellis-Bextor – Groove Jet.mp3
+Jan 14 02:06 : update: added avto/Dram'n'Base - Гитара.mp3
+Jan 14 02:06 : update: added avto/The XX - Intro.mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - A Blunted Dedication.mp3
+Jan 14 02:06 : update: added avto/Гайтана - самый вкусный шоколад! .mp3
+Jan 14 02:06 : update: added avto/Koop feat. Ane Brun - Island Blues.mp3
+Jan 14 02:06 : update: added avto/Фарсаж   7 - Саундтрек Из Машины Вин Дизеля.mp3
+Jan 14 02:06 : update: added avto/ESTRADARADA - Почти Полина Гагарина.mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - Midnight Zone Out.mp3
+Jan 14 02:06 : update: added avto/Calvin Harris - Acceptable in the 80's.mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - Peace.mp3
+Jan 14 02:06 : update: added avto/Prodigy 2010 - Dubstep Fm Archive - 2010-02-2 - wap.kengu.ru.mp3
+Jan 14 02:06 : update: added avto/КАРТЫ,ДЕНЬГИ,ДВА СТВОЛА - Без названия.mp3
+Jan 14 02:06 : update: added avto/RD87 - Rain Washing Away Memories.mp3
+Jan 14 02:06 : update: added avto/Dj Sonya - Yes. I love you.mp3
+Jan 14 02:06 : update: added avto/• EWN - Feels.mp3
+Jan 14 02:06 : update: added avto/Казантип - Транс.mp3
+Jan 14 02:06 : update: added avto/John Murphy  - Bass Theme (OST Карты,деньги и два ствола.mp3
+Jan 14 02:06 : update: added avto/KaZantip  - Гимн 2010.mp3
+Jan 14 02:06 : update: added avto/Kazantip -  Open !).mp3
+Jan 14 02:06 : update: added avto/ESTRADARADA - Май Вэй #MYWAY.mp3
+Jan 14 02:06 : update: added avto/KillaGram – Жека.mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - The Soulmate that Seldom Speaks.mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - The Stars Align.mp3
+Jan 14 02:06 : update: added avto/Wax Tailor -  Que sera(Remix).mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - Experiment C (The Grand Finale).mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - You Wonder, Wonder, Wonder.mp3
+Jan 14 02:06 : update: added avto/dirty_duck__evry_time_-_dirty_duck__evry_time_(zf.fm).mp3
+Jan 14 02:06 : update: added avto/Транс красиво переходящий в dram and BASS - Без названия.mp3
+Jan 14 02:06 : update: added avto/VjRedzzz - She Played Me.mp3
+Jan 14 02:06 : update: added avto/Афера Томаса Крауна.mp3
+Jan 14 02:06 : update: added avto/казантип - кто не танцует,тот филипп.mp3
+Jan 14 02:06 : update: added avto/parov-stelar-the-princess-lexus-2017-(mp3-you.net).mp3
+Jan 14 02:06 : update: added avto/казантип  - казантип.mp3
+Jan 14 02:06 : update: added avto/Крис Ри - Он зэ бич.mp3
+Jan 14 02:06 : update: added avto/Крис Ри - I just want to be with you.mp3
+Jan 14 02:06 : update: added avto/Moby – One Of These Mornings.mp3
+Jan 14 02:06 : update: added avto/Крис Ри - Looking for the summer.mp3
+Jan 14 02:06 : update: added avto/Trebles and Blues - Introductory Piece.mp3
+Jan 14 02:06 : update: added avto/Команда  - Baby, I'm yours.mp3
+Jan 14 02:06 : update: added avto/Неизвестен - Рыцари Круглого стола- Король Артур - Гай Ричи - 2016 -Кадры со съемок.mp3
+Jan 14 02:06 : update: added avto/АК47 - Ало,это Пакистан.mp3
+Jan 14 02:06 : update: added avto/trebles and blues - Packed My Bags and Left.mp3
+Jan 14 02:06 : update: added avto/ESTRADARADA_-_Love is (Асфальт).mp3
+Jan 14 02:06 : update: added avto/Gabin – It Don't Mean A Thing.mp3
+Jan 14 02:06 : update: added avto/Burito_-_Мегахит.mp3
+Jan 14 02:06 : update: added avto/De phazz – Cut the Jazz.mp3
+Jan 14 02:06 : update: added avto/Гай Ричи - 13.mp3
+Jan 14 02:06 : update: added avto/Dj Stereo - Dram And Bass.mp3
+Jan 14 02:06 : update: added avto/Trebles And Blues + No Alias - In The Darkness Lies The Stars.mp3
+Jan 14 02:06 : update: added avto/Armin van Buuren - Hold On To Me (Drum'n'Bass mix).mp3
+Jan 14 02:06 : update: added avto/Drum and Bass - Красивый женский вокал  (audiopoisk.com).mp3
+Jan 14 02:06 : update: added avto/Крис Ри - Jozy.mp3
+Jan 14 02:06 : update: added avto/Parov Stelar and Band – Libella Swing.mp3
+Jan 14 02:06 : update: added avto/yurik Kravchenko -  - dRAM_eNd_bASE_[ demo].mp3
+Jan 14 02:06 : update: added avto/DJ RamzesHQ - Passage 815 (Хит Лета 2011) МЕЛОДИЯ !!!.mp3
+Jan 14 02:06 : update: added avto/Telepopmusic – Breath.mp3
+Jan 14 02:06 : update: added avto/Bob Dylan- - Knockin' on Heaven's Door - саундтрек к фильму -Достучаться до небес-..mp3
+Jan 14 02:06 : update: added avto/Саундтрек из фильма 1+1 - Boogie Wonderland (Feat. The Emotions).mp3
+Jan 14 02:06 : update: added avto/КАЗАНТИП - КАЗАНТИП.mp3
+Jan 14 02:06 : update: added avto/Казантип - Гимн 2008.mp3
+Jan 14 02:06 : update: added avto/Элджей - Минимал.mp3
+Jan 14 02:06 : update: added avto/Empire Of The Sun - We Are The People (original).mp3
+Jan 14 02:06 : update: added avto/Dram and Bass.mp3
+Jan 14 02:06 : update: added 31.05.18/Röyksopp_-_Here She Comes Again (Dj Antonio Remix).mp3
+Jan 14 02:06 : update: added 31.05.18/Kazantip_superskoe_nachalo_pesni_(mp3co.ooo).mp3
+Jan 14 02:06 : update: added 31.05.18/estradarada-bjust-vsemogushhijj-(mp3-you.net).mp3
+Jan 14 02:06 : update: added 31.05.18/Vavan Ака Вова Селиванов –  Велосипед .mp3
+Jan 14 02:06 : update: added 31.05.18/MagnusTheMagnus-Area(mega-music.net).mp3
+Jan 14 02:06 : update: added 31.05.18/ESTRADARADA - ГаляГуляй.mp3
+Jan 14 02:06 : update: added 31.05.18/Aurosonic feat. Kate Louise Smith - Open Your Eyes (Drum & Bass Mix).mp3
+Jan 14 02:06 : update: added 31.05.18/David Guetta & Cedric Gervais_-_Would I Lie To You (Radio Edit).mp3
+Jan 14 02:06 : update: added 31.05.18/SMOTRA.FM ZAPOROZH'YE - Reality.mp3
+Jan 14 02:06 : update: added 31.05.18/Казантип - Сносит крышу.mp3
+Jan 14 02:06 : update: added 31.05.18/Dj_A-zone_Ft_Dj_Boyko-Kazantip_один_из_лучших_треков_казантипа__(mp3na.ru).mp3
+Jan 14 02:06 : update: added 31.05.18/Kazantip_gimn_2010_goda_2_avgusta_Open_Air_MpArtem_(mp3co.ooo).mp3
+Jan 14 02:06 : update: added 31.05.18/Филадельфия.mp3
+Jan 14 02:06 : update: added 31.05.18/elektronnaya-muzyka-kazantip.mp3
+Jan 14 02:06 : update: added 31.05.18/Tina Turner – The Best.mp3
+Jan 14 02:06 : update: added 31.05.18/calvin-harris-and-dua-lipa-one-kiss-top-100-of-foreign-songs.mp3
+Jan 14 02:06 : update: added 31.05.18/Стинг и Эрик Клептон – Sting.mp3.mp3
+Jan 14 02:06 : update: added 31.05.18/Record Tropical – Space 9, Josh Tobias - It's Your Night.mp3
+Jan 14 02:06 : update: added 31.05.18/руки-вверх-плачешь-в-темноте-топ-100-лучших-русских-песен-20.mp3
+Jan 14 02:06 : update: added 31.05.18/Владимир Кузьмин - Я не забуду тебя (Сибирские морозы).mp3
+Jan 14 02:06 : update: added 31.05.18/Future Prophecies - September [Drum and Bass].mp3
+Jan 14 02:06 : update: added 31.05.18/ёлка-мир-открывается-топ-100-лучших-русских-песен-2018.mp3
+Jan 14 02:06 : update: added 31.05.18/The XX - Intro.mp3
+Jan 14 02:06 : update: added 31.05.18/Гайтана - самый вкусный шоколад! .mp3
+Jan 14 02:06 : update: added 31.05.18/Koop feat. Ane Brun - Island Blues.mp3
+Jan 14 02:06 : update: added 31.05.18/EA7 - Duke Dumont - Ocean Drive.mp3
+Jan 14 02:06 : update: added 31.05.18/Фарсаж   7 - Саундтрек Из Машины Вин Дизеля.mp3
+Jan 14 02:06 : update: added 31.05.18/филипп-киркоров-цвет-настроения-синий-топ-100-лучших-русских.mp3
+Jan 14 02:06 : update: added 31.05.18/matrang-медуза-топ-100-лучших-русских-песен-2018.mp3
+Jan 14 02:06 : update: added 31.05.18/filatov-karas-виктор-цой-остаться-с-тобой-топ-100-лучших-рус.mp3
+Jan 14 02:06 : update: added 31.05.18/ESTRADARADA - Почти Полина Гагарина.mp3
+Jan 14 02:06 : update: added 31.05.18/Грибы - Тает лёд.mp3
+Jan 14 02:06 : update: added 31.05.18/[muzmo.ru] Лабада - случайная [muzmo.ru].mp3
+Jan 14 02:06 : update: added 31.05.18/The Avener ft. Ane Brun - To Let Myself Go.mp3
+Jan 14 02:06 : update: added 31.05.18/Trebles and Blues - Midnight Zone Out.mp3
+Jan 14 02:06 : update: added 31.05.18/kazantip_-_samyy-luchshiy.mp3
+Jan 14 02:06 : update: added 31.05.18/Казантип - Транс.mp3
+Jan 14 02:06 : update: added 31.05.18/би джис - Без названия.mp3
+Jan 14 02:06 : update: added 31.05.18/Alok – Hear Me Now (feat. Zeeba).mp3
+Jan 14 02:06 : update: added 31.05.18/KaZantip  - Гимн 2010.mp3
+Jan 14 02:06 : update: added 31.05.18/Kazantip -  Open !).mp3
+Jan 14 02:06 : update: added 31.05.18/ESTRADARADA - Май Вэй #MYWAY.mp3
+Jan 14 02:06 : update: added 31.05.18/KillaGram – Жека.mp3
+Jan 14 02:06 : update: added 31.05.18/_DJ_Franzose_15_02_2012.mp3
+Jan 14 02:06 : update: added 31.05.18/Trebles and Blues - Experiment C (The Grand Finale).mp3
+Jan 14 02:06 : update: added 31.05.18/Вахтанг - Довела (Roma Pafos Remix).mp3
+Jan 14 02:06 : update: added 31.05.18/estradarada-вите-надо-выйти-топ-100-лучших-русских-песен-201.mp3
+Jan 14 02:06 : update: added 31.05.18/Calvin Harris, Dua Lipa - One Kiss.mp3
+Jan 14 02:06 : update: added 31.05.18/Афера Томаса Крауна.mp3
+Jan 14 02:06 : update: added 31.05.18/казантип - кто не танцует,тот филипп.mp3
+Jan 14 02:06 : update: added 31.05.18/parov-stelar-the-princess-lexus-2017-(mp3-you.net).mp3
+Jan 14 02:06 : update: added 31.05.18/руки-вверх-когда-мы-были-молодыми-топ-100-лучших-русских-пес.mp3
+Jan 14 02:06 : update: added 31.05.18/Hippie Sabotage – Different (Jarico Remix).mp3
+Jan 14 02:06 : update: added 31.05.18/Trebles and Blues - Introductory Piece.mp3
+Jan 14 02:06 : update: added 31.05.18/Dj_Nikolas-Kazantip_2011Exclusive_Club_Music.mp3
+Jan 14 02:06 : update: added 31.05.18/Carmen McRae & Dave Brubeck - Take Five.mp3
+Jan 14 02:06 : update: added 31.05.18/Команда  - Baby, I'm yours.mp3
+Jan 14 02:06 : update: added 31.05.18/merk-and-kremont-feat-dnce-hands-up-top-100-of-foreign-songs.mp3
+Jan 14 02:06 : update: added 31.05.18/ESTRADARADA_-_Love is (Асфальт).mp3
+Jan 14 02:06 : update: added 31.05.18/Trebles And Blues + No Alias - In The Darkness Lies The Stars.mp3
+Jan 14 02:06 : update: added 31.05.18/legkiy-trans-luchshiy-vokal-2012.mp3
+Jan 14 02:06 : update: added 31.05.18/Armin van Buuren - Hold On To Me (Drum'n'Bass mix).mp3
+Jan 14 02:06 : update: added 31.05.18/алексей-воробьёв-я-тебя-люблю-топ-100-лучших-русских-песен-2.mp3
+Jan 14 02:06 : update: added 31.05.18/Bob Dylan- - Knockin' on Heaven's Door - саундтрек к фильму -Достучаться до небес-..mp3
+Jan 14 02:06 : update: added 31.05.18/КАЗАНТИП - КАЗАНТИП.mp3
+Jan 14 02:06 : update: added 31.05.18/Казантип - Гимн 2008.mp3
+Jan 14 02:06 : update: added 31.05.18/Элджей - Минимал.mp3
+Jan 14 02:06 : update: added 31.05.18/Coldplay - Adventure of a Lifetime.mp3
+Jan 14 02:06 : update: added 31.05.18/Empire Of The Sun - We Are The People (original).mp3
+Jan 14 02:06 : update: added 31.05.18/Dram and Bass.mp3
+Jan 14 02:06 : update: added 31.05.18/KaZantip_Gimn_Kazantipa_2008_remiks_(mp3co.ooo).mp3
+Jan 14 02:06 : update: added /2-mashi-bosaja.mp3
+Jan 14 02:06 : update: added lastlas/Криминальное чтиво - Криминальное чтиво.mp3
+Jan 14 02:06 : update: added lastlas/Daft Punk - Get Lucky.mp3
+Jan 14 02:06 : update: added lastlas/Music  of  Kings - nicebeatzprod - et je danse.mp3
+Jan 14 02:06 : update: added lastlas/Haddaway N. - What is Love.mp3
+Jan 14 02:06 : update: added lastlas/A folow you - A folow you.mp3
+Jan 14 02:06 : update: added lastlas/Vinne Verse - Mine.mp3
+Jan 14 02:06 : update: added lastlas/Liu - Step Ahead  (Extended Mix).mp3
+Jan 14 02:06 : update: added lastlas/Paul Oakenfold - Ready Steady Go.mp3
+Jan 14 02:06 : update: added lastlas/SouLM - Liu feat. Vano - Step Ahead (Extended Mix).mp3
+Jan 14 02:06 : update: added lastlas/Ciara feat. Missy Elliott - One Two Step.mp3
+Jan 14 02:06 : update: added lastlas/Original - Angetenar (Original Mix).mp3
+Jan 14 02:06 : update: added lastlas/Jay West - Smile.mp3
+Jan 14 02:06 : update: added lastlas/Plain White Ts - Song 2.mp3
+Jan 14 02:06 : update: added lastlas/Бурито - По волнам.mp3
+Jan 14 02:06 : update: added lastlas/Coolio feat. L.V. - Gangstas Paradise.mp3
+Jan 14 02:06 : update: added lastlas/Fontano feat. Artego - 9 Хризантем (feat. Artego).mp3
+Jan 14 02:06 : update: added lastlas/Ирина Аллегрова - Цветы без повода(СТУДИЯ).mp3
+Jan 14 02:06 : update: added lastlas/lykke li - I Follow You.mp3
+Jan 14 02:06 : update: added lastlas/Jigg - So Hot.mp3
+Jan 14 02:06 : update: added lastlas/FREE FLOW FLAVA - Delusion - Coub - Coub (high_1521321539_high).mp3
+Jan 14 02:06 : update: added lastlas/Rusty Mustard - When You Smile.mp3
+Jan 14 02:06 : update: added lastlas/Zaz - Je veux.mp3
+Jan 14 02:06 : update: added lastlas/Katy Perry - I Kissed A Girl.mp3
+Jan 14 02:06 : update: added lastlas/Криминальное чтиво - Траволта.mp3
+Jan 14 02:06 : update: added lastlas/Kevin McKay - Everybody Get On The Floor (Original Mix).mp3
+Jan 14 02:06 : update: added lastlas/Алексей Воробьв - Я тебя люблю.mp3
+Jan 14 02:06 : update: added lastlas/Роман Полонский - Ты одна чей голос в сердце я не пытался убить.mp3
+Jan 14 02:06 : update: added lastlas/DJ Benzina - (DJ HaLF Remix).mp3
+Jan 14 02:06 : update: added lastlas/Alice Merton - No Roots.mp3
+Jan 14 02:06 : update: added lastlas/Imagine Dragons - Believer.mp3
+Jan 14 02:06 : update: added lastlas/DJ Breez - When You Funny.mp3
+Jan 14 02:06 : update: added lastlas/Depeche Mode - [Enjoy the silence] Words like violence break the silence come crashing in into my little world....mp3
+Jan 14 02:06 : update: added lastlas/katty who - I kissed a girl SLOWED - DOWN.mp3
+Jan 14 02:06 : update: added lastlas/Криминальное чтиво - Surf Rider.mp3
+Jan 14 02:06 : update: added lastlas/Dr Dre Snoop Dog (remix) - Still Dre.mp3
+Jan 14 02:06 : update: added lastlas/Liu - Step Ahead.mp3
+Jan 14 02:06 : update: added lastlas/Newtone - Run.mp3
+Jan 14 02:06 : update: added lastlas/Katy Perry feat. Nicki Minaj - Swish Swish.mp3
+Jan 14 02:06 : update: added lastlas/Dr. Dre feat. Snoop Dogg - Still D.R.E..mp3
+Jan 14 02:06 : update: added 01.01.19/2-mashi-bosaja.mp3
+Jan 14 02:06 : update: added 14.09.18/Röyksopp_-_Here She Comes Again (Dj Antonio Remix).mp3
+Jan 14 02:06 : update: added 14.09.18/Elina Born - Goodbye To Yesterday.mp3
+Jan 14 02:06 : update: added 14.09.18/Kazantip_superskoe_nachalo_pesni_(mp3co.ooo).mp3
+Jan 14 02:06 : update: added 14.09.18/estradarada-bjust-vsemogushhijj-(mp3-you.net).mp3
+Jan 14 02:06 : update: added 14.09.18/Vavan Ака Вова Селиванов –  Велосипед .mp3
+Jan 14 02:06 : update: added 14.09.18/MagnusTheMagnus-Area(mega-music.net).mp3
+Jan 14 02:06 : update: added 14.09.18/ESTRADARADA - ГаляГуляй.mp3
+Jan 14 02:06 : update: added 14.09.18/Aurosonic feat. Kate Louise Smith - Open Your Eyes (Drum & Bass Mix).mp3
+Jan 14 02:06 : update: added 14.09.18/David Guetta & Cedric Gervais_-_Would I Lie To You (Radio Edit).mp3
+Jan 14 02:06 : update: added 14.09.18/SMOTRA.FM ZAPOROZH'YE - Reality.mp3
+Jan 14 02:06 : update: added 14.09.18/Казантип - Сносит крышу.mp3
+Jan 14 02:06 : update: added 14.09.18/Dj_A-zone_Ft_Dj_Boyko-Kazantip_один_из_лучших_треков_казантипа__(mp3na.ru).mp3
+Jan 14 02:06 : update: added 14.09.18/Евровидение 2018 - Ermal Meta & Fabrizio Moro - Non Mi Avete Fatto Niente (Евровидение 2018 Италия).mp3
+Jan 14 02:06 : update: added 14.09.18/Kazantip_gimn_2010_goda_2_avgusta_Open_Air_MpArtem_(mp3co.ooo).mp3
+Jan 14 02:06 : update: added 14.09.18/Филадельфия.mp3
+Jan 14 02:06 : update: added 14.09.18/elektronnaya-muzyka-kazantip.mp3
+Jan 14 02:06 : update: added 14.09.18/Tina Turner – The Best.mp3
+Jan 14 02:06 : update: added 14.09.18/Стинг и Эрик Клептон – Sting.mp3.mp3
+Jan 14 02:06 : update: added 14.09.18/Record Tropical – Space 9, Josh Tobias - It's Your Night.mp3
+Jan 14 02:06 : update: added 14.09.18/руки-вверх-плачешь-в-темноте-топ-100-лучших-русских-песен-20.mp3
+Jan 14 02:06 : update: added 14.09.18/Future Prophecies - September [Drum and Bass].mp3
+Jan 14 02:06 : update: added 14.09.18/The XX - Intro.mp3
+Jan 14 02:06 : update: added 14.09.18/Гайтана - самый вкусный шоколад! .mp3
+Jan 14 02:06 : update: added 14.09.18/Koop feat. Ane Brun - Island Blues.mp3
+Jan 14 02:06 : update: added 14.09.18/EA7 - Duke Dumont - Ocean Drive.mp3
+Jan 14 02:06 : update: added 14.09.18/Фарсаж   7 - Саундтрек Из Машины Вин Дизеля.mp3
+Jan 14 02:06 : update: added 14.09.18/филипп-киркоров-цвет-настроения-синий-топ-100-лучших-русских.mp3
+Jan 14 02:06 : update: added 14.09.18/matrang-медуза-топ-100-лучших-русских-песен-2018.mp3
+Jan 14 02:06 : update: added 14.09.18/filatov-karas-виктор-цой-остаться-с-тобой-топ-100-лучших-рус.mp3
+Jan 14 02:06 : update: added 14.09.18/ESTRADARADA - Почти Полина Гагарина.mp3
+Jan 14 02:06 : update: added 14.09.18/Грибы - Тает лёд.mp3
+Jan 14 02:06 : update: added 14.09.18/[muzmo.ru] Лабада - случайная [muzmo.ru].mp3
+Jan 14 02:06 : update: added 14.09.18/The Avener ft. Ane Brun - To Let Myself Go.mp3
+Jan 14 02:06 : update: added 14.09.18/Trebles and Blues - Midnight Zone Out.mp3
+Jan 14 02:06 : update: added 14.09.18/kazantip_-_samyy-luchshiy.mp3
+Jan 14 02:06 : update: added 14.09.18/Ольга Бузова - Хит парад.mp3
+Jan 14 02:06 : update: added 14.09.18/Казантип - Транс.mp3
+Jan 14 02:06 : update: added 14.09.18/би джис - Без названия.mp3
+Jan 14 02:06 : update: added 14.09.18/Alok – Hear Me Now (feat. Zeeba).mp3
+Jan 14 02:06 : update: added 14.09.18/KaZantip  - Гимн 2010.mp3
+Jan 14 02:06 : update: added 14.09.18/Kazantip -  Open !).mp3
+Jan 14 02:06 : update: added 14.09.18/ESTRADARADA - Май Вэй #MYWAY.mp3
+Jan 14 02:06 : update: added 14.09.18/KillaGram – Жека.mp3
+Jan 14 02:06 : update: added 14.09.18/_DJ_Franzose_15_02_2012.mp3
+Jan 14 02:06 : update: added 14.09.18/Trebles and Blues - Experiment C (The Grand Finale).mp3
+Jan 14 02:06 : update: added 14.09.18/Вахтанг - Довела (Roma Pafos Remix).mp3
+Jan 14 02:06 : update: added 14.09.18/estradarada-вите-надо-выйти-топ-100-лучших-русских-песен-201.mp3
+Jan 14 02:06 : update: added 14.09.18/Calvin Harris, Dua Lipa - One Kiss.mp3
+Jan 14 02:06 : update: added 14.09.18/Афера Томаса Крауна.mp3
+Jan 14 02:06 : update: added 14.09.18/казантип - кто не танцует,тот филипп.mp3
+Jan 14 02:06 : update: added 14.09.18/parov-stelar-the-princess-lexus-2017-(mp3-you.net).mp3
+Jan 14 02:06 : update: added 14.09.18/руки-вверх-когда-мы-были-молодыми-топ-100-лучших-русских-пес.mp3
+Jan 14 02:06 : update: added 14.09.18/Hippie Sabotage – Different (Jarico Remix).mp3
+Jan 14 02:06 : update: added 14.09.18/Trebles and Blues - Introductory Piece.mp3
+Jan 14 02:06 : update: added 14.09.18/Команда  - Baby, I'm yours.mp3
+Jan 14 02:06 : update: added 14.09.18/merk-and-kremont-feat-dnce-hands-up-top-100-of-foreign-songs.mp3
+Jan 14 02:06 : update: added 14.09.18/ESTRADARADA_-_Love is (Асфальт).mp3
+Jan 14 02:06 : update: added 14.09.18/Trebles And Blues + No Alias - In The Darkness Lies The Stars.mp3
+Jan 14 02:06 : update: added 14.09.18/legkiy-trans-luchshiy-vokal-2012.mp3
+Jan 14 02:06 : update: added 14.09.18/Armin van Buuren - Hold On To Me (Drum'n'Bass mix).mp3
+Jan 14 02:06 : update: added 14.09.18/Bob Dylan- - Knockin' on Heaven's Door - саундтрек к фильму -Достучаться до небес-..mp3
+Jan 14 02:06 : update: added 14.09.18/КАЗАНТИП - КАЗАНТИП.mp3
+Jan 14 02:06 : update: added 14.09.18/Казантип - Гимн 2008.mp3
+Jan 14 02:06 : update: added 14.09.18/Элджей - Минимал.mp3
+Jan 14 02:06 : update: added 14.09.18/Coldplay - Adventure of a Lifetime.mp3
+Jan 14 02:06 : update: added 14.09.18/Empire Of The Sun - We Are The People (original).mp3
+Jan 14 02:06 : update: added 14.09.18/Dram and Bass.mp3
+Jan 14 02:06 : update: added 14.09.18/KaZantip_Gimn_Kazantipa_2008_remiks_(mp3co.ooo).mp3
+Jan 14 02:07 : exception: Failed to enable output "pulse audio" [pulse]
+Jan 14 02:07 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 14 02:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:07 : player: played "2-mashi-bosaja.mp3"
+Jan 14 02:07 : exception: Failed to enable output "pulse audio" [pulse]
+Jan 14 02:07 : exception: nested: pa_context_connect() has failed: Connection refused
+Jan 14 02:07 : player: played "2-mashi-bosaja.mp3"
+Jan 14 02:07 : client: [1] closed
+Jan 14 02:08 : avahi: Client Disconnected, will reconnect shortly
+Jan 14 02:16 : config: option 'device' on line 18 was not recognized
+Jan 14 02:16 : config: option 'mixer_device' on line 19 was not recognized
+Jan 14 02:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:16 : avahi: Service 'Music Player' successfully established.
+Jan 14 02:16 : client: [0] opened from 127.0.0.1:43412
+Jan 14 02:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:30 : client: [0] closed
+Jan 14 02:31 : client: [1] opened from 127.0.0.1:43424
+Jan 14 02:31 : player: played "lastlas/Dr. Dre feat. Snoop Dogg - Still D.R.E..mp3"
+Jan 14 02:31 : client: [1] closed
+Jan 14 02:33 : exception: Failed to create /home/zulu/.mpd/mpdstate: No such file or directory
+Jan 14 02:35 : config: option 'device' on line 18 was not recognized
+Jan 14 02:35 : config: option 'mixer_device' on line 19 was not recognized
+Jan 14 02:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:35 : avahi: Service 'Music Player' successfully established.
+Jan 14 02:35 : client: [0] opened from 127.0.0.1:43430
+Jan 14 02:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:36 : player: played "2-mashi-bosaja.mp3"
+Jan 14 02:36 : client: [0] closed
+Jan 14 02:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:41 : avahi: Service 'Music Player' successfully established.
+Jan 14 02:41 : client: [0] opened from 127.0.0.1:43456
+Jan 14 02:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:43 : player: played "2-mashi-bosaja.mp3"
+Jan 14 02:43 : client: [0] closed
+Jan 14 02:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:44 : avahi: Service 'Music Player' successfully established.
+Jan 14 02:44 : client: [0] opened from 127.0.0.1:43466
+Jan 14 02:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 02:46 : player: played "2-mashi-bosaja.mp3"
+Jan 14 02:46 : client: [0] closed
+Jan 14 02:50 : client: [1] opened from 127.0.0.1:43484
+Jan 14 02:50 : client: [1] closed
+Jan 14 02:50 : client: [2] opened from 127.0.0.1:43486
+Jan 14 02:50 : client: [2] closed
+Jan 14 02:50 : client: [3] opened from 127.0.0.1:43488
+Jan 14 02:50 : client: [3] closed
+Jan 14 03:11 : client: [4] opened from 127.0.0.1:43552
+Jan 14 03:11 : player: played "2-mashi-bosaja.mp3"
+Jan 14 03:11 : client: [4] closed
+Jan 14 03:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 03:23 : avahi: Service 'Music Player' successfully established.
+Jan 14 03:23 : client: [0] opened from 127.0.0.1:43698
+Jan 14 03:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 03:23 : player: played "2-mashi-bosaja.mp3"
+Jan 14 03:23 : client: [0] closed
+Jan 14 03:24 : config: option 'device' on line 18 was not recognized
+Jan 14 03:24 : config: option 'mixer_device' on line 19 was not recognized
+Jan 14 03:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 03:24 : avahi: Service 'Music Player' successfully established.
+Jan 14 03:24 : client: [0] opened from 127.0.0.1:43702
+Jan 14 03:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 03:24 : player: played "2-mashi-bosaja.mp3"
+Jan 14 03:24 : client: [0] closed
+Jan 14 17:50 : client: [1] opened from 127.0.0.1:45592
+Jan 14 17:54 : player: played "2-mashi-bosaja.mp3"
+Jan 14 17:54 : player: played "lastlas/A folow you - A folow you.mp3"
+Jan 14 17:56 : player: played "lastlas/A folow you - A folow you.mp3"
+Jan 14 17:56 : client: [1] closed
+Jan 15 01:48 : client: [2] opened from 127.0.0.1:49584
+Jan 15 01:48 : client: [2] closed

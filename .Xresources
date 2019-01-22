@@ -1,0 +1,135 @@
+! ------------------------------------------------------------------------------
+! URxvt Color theme
+! ------------------------------------------------------------------------------
+
+URxvt*font: xft:Source Code Pro For Powerline:pixelsize=13:minspace=False, xft:DejaVu Sans:pixelsize=11
+
+!URxvt*font: xft:Inconsolata Nerd Font Mono:pixelsize=16:minspace=False, xft:DejaVu Sans:pixelsize=11
+!URxvt*boldFont: xft:Inconsolata Nerd Font Mono:pixelsize=16:minspace=False, xft:DejaVu Sans:pixelsize=11
+
+URxvt*letterspace: 0
+URxvt*scrollBar: false
+URxvt.intensityStyles: false
+URxvt.transparent:   false
+!URxvt.depth: 24
+
+!Xft.dpi: 96
+!Xft.antialias: true
+!Xft.hinting: true
+!Xft.rgba: rgb
+!Xft.autohint: false
+!Xft.hintstyle: hintslight
+!Xft.lcdfilter: lcddefault
+
+! special
+*.foreground:   #ffffff
+!*.background:   #08090a
+*.background:   #1d1d1d
+*.cursorColor:  #009688
+
+! black
+*.color0:       #222222
+*.color8:       #444444
+
+! red
+*.color1:       #ffffff
+*.color9:       #ffffff
+
+! green
+*.color2:       #7c7d7c
+*.color10:      #7c7d7c
+
+! yellow
+*.color3:       #ca4a4b
+*.color11:      #ca4a4b
+
+! blue
+*.color4:       #009688
+*.color12:      #009688
+
+! magenta
+*.color5:       #7c7d7c
+*.color13:      #7c7d7c
+
+! cyan
+*.color6:       #009688
+*.color14:      #009688
+
+! white
+*.color7:       #ffffff
+*.color15:      #ffffff
+
+URxvt.perl-ext-common: default,matcher,fullscreen,clipboard
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.keysym.F11: perl:fullscreen:switch
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+URxvt.secondaryWheel: 1
+URxvt.internalBorder:  5
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.keysym.Control-Up:   \033[1;5A
+URxvt.keysym.Control-Down:    \033[1;5B
+URxvt.keysym.Control-Left:    \033[1;5D
+URxvt.keysym.Control-Right:    \033[1;5C
+
+! macros for clipboard and selection
+URxvt.copyCommand:      xclip -i -selection clipboard
+URxvt.pasteCommand:     xclip -o -selection clipboard
+URxvt.keysym.M-c:       perl:clipboard:copy
+URxvt.keysym.m-v:       perl:clipboard:paste
+URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.keysym.M-s:       perl:keyboard-select:search
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      chromium
+URxvt.underlineURLs:    true
+URxvt.urlButton:        1
+URxvt.geometry:         90x30
+URxvt*cursorBlink:      true
+URxvt*cursorUnderline:  true
+
+! tabbed
+URxvt.tabbed.tabbar-fg: 4
+URxvt.tabbed.tabbar-bg: 16
+URxvt.tabbed.tab-fg:    15
+URxvt.tabbed.tab-bg:    4
+URxvt*buffered:         false
+
+
+rofi.color-enabled: true
+rofi.color-window: #1d1d1d, #1d1d1d, #1d1d1d
+rofi.color-normal: #1d1d1d, #d8dee8, #1d1d1d, #1d1d1d, #bf616a
+rofi.color-active: #1d1d1d, #b48ead, #1d1d1d, #1d1d1d, #93e5cc
+rofi.color-urgent: #1d1d1d, #ebcb8b, #1d1d1d, #1d1d1d, #ebcb8b
+
+
+dmenu.selforeground:	    #d8dee8
+dmenu.background:	        #1d1d1d
+dmenu.selbackground:	    #bf616a
+dmenu.foreground:	        #d8dee8
+
+
+! XTerm - terminal settings
+
+XTerm*faceName: Source Code Pro For Powerline:size=10
+!XTerm*background: #1d1d1d
+!XTerm*foreground: white
+XTerm*loginShell: true
+XTerm*scrollBar: false
+XTerm*geometry: 100x26
+XTerm*keepSelection: true
+XTerm*bellIsUrgent: true
+XTerm*dynamicColors: on
+XTerm*saveLines: 15000
+XTerm*jumpScroll: true
+XTerm*multiScroll: true
+XTerm*selectToClipboard: on
+
+Ctrl Shift <Key>c: copy-selection(CLIPBOARD)
+Ctrl Shift <Key>v: insert-selection(CLIPBOARD)
+
+UXTerm*translations: #override
+    Ctrl <Key>M: maximize()
+    Ctrl <Key>R: restore()

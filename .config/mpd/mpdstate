@@ -1,8 +1,9 @@
 sw_volume: 100
 audio_device_state:1:Pulse Output
 audio_device_state:1:my_fifo
-state: stop
-current: 3
+state: pause
+current: 298
+time: 43.816000
 random: 0
 repeat: 0
 single: 0
@@ -11,9 +12,303 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:2-mashi-bosaja.mp3
-1:lastlas/Криминальное чтиво - Криминальное чтиво.mp3
-2:lastlas/Ciara feat. Missy Elliott - One Two Step.mp3
-3:lastlas/A folow you - A folow you.mp3
-4:lastlas/Dr. Dre feat. Snoop Dogg - Still D.R.E..mp3
+0:lastlas/Криминальное чтиво - Криминальное чтиво.mp3
+1:lastlas/Ciara feat. Missy Elliott - One Two Step.mp3
+2:lastlas/A folow you - A folow you.mp3
+3:lastlas/Dr. Dre feat. Snoop Dogg - Still D.R.E..mp3
+4:2-mashi-bosaja.mp3
+5:музня/00_0451_05_5.mp3
+6:музня/00.Luk Ex 5nizza - Спрага.mp3
+7:музня/01_chig_i_so_avtobus.mp3
+8:музня/01_kalinov_most_rodnaya.mp3
+9:музня/01_kalinov_most_vse_putem.mp3
+10:музня/01_michael_jackson_jam.mp3
+11:музня/010_Владимир Высоцкий - Лукоморья больше нет.mp3
+12:музня/017. Lady Gaga - Bad Romance (Short Radio Edit).mp3
+13:музня/02-Verhom na zvezde.mp3
+14:музня/Trance/(05) [Armin van Buuren feat. Audrey Gallagher] Hold On To Me.mp3
+15:музня/Trance/0070-TIESTO PRES. EDWARD CARNBY - ALONE IN THE DARK.mp3
+16:музня/Trance/(06) [Armin van Buuren feat. Sharon den Adel] In And Out Of .mp3
+17:музня/Trance/(07) [Electronic House Sensation Vol. 14] 7. Starsplash - Co.mp3
+18:музня/Trance/(08) [Armin van Buuren feat. Cathy Burton] Rain.mp3
+19:музня/Trance/(09) [Armin van Buuren feat. Vera Ostrova] What If.mp3
+20:музня/диск Лехи/!!!!!Охуеный трэк dj restart!!!!!качать всем!!!!!.mp3
+21:музня/диск Лехи/!Serge Devant - Addicted (Radio edit).mp3
+22:музня/диск Лехи/158_Inna - July (Play & Win Radio Edit).mp3
+23:музня/диск Лехи/[07] Sidekick - Deep Fear (Phobia Mix).mp3
+24:музня/диск Лехи/[фен_пати][движ] - люблю небо.mp3 [.ua].mp3
+25:музня/диск Лехи/[electro house] Modjo - Lady 2010 (Yash & Sanders Remix) [fr.mp3
+26:музня/диск Лехи/=).mp3
+27:музня/диск Лехи/004 ТИМАТИ FEAT. БОГДАН ТИТОМИР - ГРЯЗНЫЕ СУЧКИ БУДУТ НАКАЗА.mp3
+28:музня/диск Лехи/005 Guf - Легко Ли Быть Молодым.mp3
+29:музня/диск Лехи/009 - Black Eyed Peas - Meet Me Halfway.mp3
+30:музня/диск Лехи/017 Lady Gaga - Bad Romance (Short Radio Edit).mp3
+31:музня/диск Лехи/01 Dj Kiriloff - Dinamit FM Mix.mp3
+32:музня/диск Лехи/028 Paula Abdul - Dance Like There's No Tomorrow (Paul Oaken.mp3
+33:музня/диск Лехи/03 - Капа - Там на небе Богам.mp3
+34:музня/диск Лехи/058 JJ и Оленька - Хочу другого (club mix).mp3
+35:музня/диск Лехи/067a11d27315.mp3
+36:музня/диск Лехи/08 - Supermode - Tell Me Why.mp3
+37:музня/диск Лехи/09-Sensation - Anthem 2003.mp3
+38:музня/диск Лехи/10.Эйсик - 158 ая.mp3
+39:музня/диск Лехи/154_Darren Bailie - Protect Your Mind 2009 (PH Electro Short.mp3
+40:музня/диск Лехи/2 Tyme feat. Jennifer Jones - Missing You 2009 (DJ ARTem RES.mp3
+41:музня/12_I_thing1.mp3
+42:музня/625973414_tonnel.mp3
+43:музня/7_VIVALDI_Leto1.mp3
+44:музня/В.Высоцкий (Вертикаль).mp3
+45:музня/Владимир Высоцкий - Скалолазка.mp3
+46:музня/Теона Дольникова и Гоша Куценко - Слова (zvukoff.ru).mp3
+47:музня/Чиж & K - Вечная молодость.mp3
+48:музня/Чиж & Со - Ветер вырывает из рук.mp3
+49:музня/Чиж & K - Поезд.mp3
+50:музня/beats_and_styles_feat._papa_dee_-_take_it_back.mp3
+51:музня/dj_smash_feat._fast_food_-_volna_video_versiya.mp3
+52:музня/Inna - Hot.mp3
+53:музня/krasnoe_der-5gidrogash_pri_uch_anton_obwalxshik_on_zhe_shilo_krowostok-2.mp3
+54:музня/Krovostok - (03) Bitj Plohim.mp3
+55:музня/Krovostok - (10) Noch.mp3
+56:музня/Krovostok_Gantelya_1_7.mp3
+57:музня/03-krovostok-kolhozniki.mp3
+58:музня/06_krovostok_teryau_golovu.mp3
+59:музня/01_krovostok_hochesh.mp3
+60:музня/krowostok-02_-_razgowory_o_napasah-2.mp3
+61:музня/Madcon - Beggin (zvukoff.ru).mp3
+62:музня/maroon_5_-_if_i_never_see_your_face_again.mp3
+63:музня/maroon_5_-_makes_me_wonder.mp3
+64:музня/maroon_5_-_sunday_morning.mp3
+65:музня/nogu_svelo_-_haru_mambaru.mp3
+66:музня/uma2rman_-_dayte_sigaretu.mp3
+67:музня/музыка/музыка/005 - 09_SIDIM NA OBLAKAH.mp3
+68:музня/музыка/музыка/01 Дорожка 1.mp3
+69:музня/музыка/музыка/01 Cantaloop (Flip Fantasia).wma
+70:музня/музыка/музыка/028 - All Saints - Rocksteady.mp3
+71:музня/музыка/музыка/03 Дорожка 3.mp3
+72:музня/музыка/музыка/04 Дорожка 4.wma
+73:музня/музыка/музыка/05 Дорожка 5.mp3
+74:музня/музыка/музыка/087 Nevergreen - I play for you (feat. P. Griffith).mp3
+75:музня/музыка/музыка/10 Дорожка 10.wma
+76:музня/музыка/музыка/10 Sing It Back (Can 7 1830`s Mix) .mp3
+77:музня/музыка/музыка/12 друзей Оушена.mp3
+78:музня/музыка/музыка/13 Дорожка 13.wma
+79:музня/музыка/музыка/18 Дорожка 18.wma
+80:музня/музыка/музыка/волна.wma
+81:музня/музыка/музыка/Копия Саундтрек сериал Клон - Loona too.mp3
+82:музня/музыка/музыка/красотка.MP3
+83:музня/музыка/музыка/cf19c8ed47.mp3
+84:музня/музыка/музыка/DJ Ivan Roudyk.mp3
+85:музня/музыка/музыка/DJ Marky & Bungle - No Time To Love.mp3
+86:музня/музыка/музыка/Duran duran.mp3
+87:музня/музыка/музыка/Everything But The G.mp3
+88:музня/музыка/музыка/MillerTime 05.mp3
+89:музня/музыка/музыка/Moby-Pe'Woman.mp3
+90:музня/музыка/музыка/netrogaj_p.mp3
+91:музня/музыка/музыка/nikita-uleteli_navsegda.mp3
+92:музня/музыка/музыка/Track.mp3
+93:музня/музыка/My Playlists/009 Nelly Furtado - Say It Right.mp3
+94:музня/музыка/My Playlists/074 Mr. Credo - Клён.mp3
+95:музня/музыка/My Playlists/135 Karmah - Just Be Good For Me.mp3
+96:музня/музыка/My Playlists/165 Black Eyed Peas Feat Sergio Mendes - Mas Que Nada.mp3
+97:музня/музыка/My Playlists/Никита - Ты Не Моя.Mp3
+98:музня/музыка/My Playlists/Таня Тишинская-Угостите даму сигоретой.mp3
+99:музня/музыка/My Playlists/Benny Benassi (2003) Hypnotica - 04 - Let It Be.mp3
+100:музня/музыка/My Playlists/Mojo - lady.mp3
+101:музня/музыка/My Playlists/Palast Orchestra - Oops!.. I Did It Again.mp3
+102:музня/музыка/My Playlists/TRACK01.MP3
+103:музня/музыка/My Playlists/Will Smith - Men In Black (Men In Black ST).mp3
+104:музня/066-T.HALF-METHOD.mp3
+105:музня/10 Расстались.mp3
+106:музня/Леонид Портной - Кто тебя создал такую (zvukoff.ru).mp3
+107:музня/Найк Борзов - День как день (zvukoff.ru).mp3
+108:музня/Aquapura - 17 (Dj Antonio Remix)---www.djsanchez.ru---.mp3
+109:музня/музыка/музыка/Мадагаскар песня.mp3
+110:музня/музыка/музыка/Секс в большом городе.mp3
+111:музня/музыка/музыка/Отель Ural Dance Mix.mp3
+112:музня/новое/01_sade_love_is_stronger_than_pride.mp3
+113:музня/новое/02_sade_flow.mp3
+114:музня/новое/13_billys_band_zimniy_son_cover_by_alsu.mp3
+115:музня/новое/30510253_tonnel.mp3
+116:музня/Новый альбом Guf`a/(05) [Guf] Заходит Луна (Feat. Princip).mp3
+117:музня/Новый альбом Guf`a/005 Guf - Легко Ли Быть Молодым.mp3
+118:музня/Drum`n`Bass/58_Planka___Angely_online_TRansgen_dnb_remix.mp3
+119:музня/Drum`n`Bass/94c5061b6a8e.mp3
+120:музня/Drum`n`Bass/ДРАМ - Люблю...просто смотреть,как ты смеешься...люблю назыв.mp3
+121:музня/Drum`n`Bass/Любовь и Drum and Bass.mp3
+122:музня/Drum`n`Bass/drum_and_bass_-_drum_and_bas.mp3
+123:музня/Drum`n`Bass/Dub FX - 10 - Step On My Trip.mp3
+124:музня/Drum`n`Bass/Dub step.mp3
+125:музня/Drum`n`Bass/f3ebef2db83d.mp3
+126:музня/Drum`n`Bass/promodj.ru_Artem_Noise_Requiem_for_a_dream_Artem_Noise_dnb_r.mp3
+127:avto/• EWN - Feels.mp3
+128:avto/➨Dram And Bass  - one drum and base 2011.mp3
+129:avto/АК47 - Ало,это Пакистан.mp3
+130:avto/Афера Томаса Крауна.mp3
+131:avto/Гай Ричи - 13.mp3
+132:avto/Гайтана - самый вкусный шоколад! .mp3
+133:avto/казантип  - казантип.mp3
+134:avto/казантип - 2016_.mp3
+135:avto/Казантип - Гимн 2008.mp3
+136:avto/КАЗАНТИП - КАЗАНТИП.mp3
+137:avto/казантип - кто не танцует,тот филипп.mp3
+138:avto/Казантип - Сносит крышу.mp3
+139:avto/Казантип - Транс.mp3
+140:avto/КАРТЫ,ДЕНЬГИ,ДВА СТВОЛА - Без названия.mp3
+141:avto/Команда  - Baby, I'm yours.mp3
+142:avto/Крис Ри - I just want to be with you.mp3
+143:avto/Саундтрек из фильма 1+1 - Boogie Wonderland (Feat. The Emotions).mp3
+144:avto/Стинг и Эрик Клептон – Sting.mp3.mp3
+145:avto/Транс красиво переходящий в dram and BASS - Без названия.mp3
+146:avto/Триагрутрика - Вата на Доватора.mp3
+147:avto/ТРИАГРУТРИКА - Куда Идти После Института.mp3
+148:avto/Филадельфия.mp3
+149:avto/Элджей - Минимал.mp3
+150:avto/Armin van Buuren - Hold On To Me (Drum'n'Bass mix).mp3
+151:avto/Aurosonic feat. Kate Louise Smith - Open Your Eyes (Drum & Bass Mix).mp3
+152:avto/Bob Dylan- - Knockin' on Heaven's Door - саундтрек к фильму -Достучаться до небес-..mp3
+153:avto/Calvin Harris - Acceptable in the 80's.mp3
+154:avto/David Guetta & Cedric Gervais_-_Would I Lie To You (Radio Edit).mp3
+155:avto/De phazz – Cut the Jazz.mp3
+156:avto/Deekline And Ed Solo - King of The Bongo ☣ [Drum 'N Bass].mp3
+157:avto/Dire Straits - Sultans of Swing.mp3
+158:avto/dirty_duck__evry_time_-_dirty_duck__evry_time_(zf.fm).mp3
+159:avto/DJ RamzesHQ - Passage 815 (Хит Лета 2011) МЕЛОДИЯ !!!.mp3
+160:avto/Dj Sonya - Yes. I love you.mp3
+161:avto/Dj Stereo - Dram And Bass.mp3
+162:avto/Dj Tiesto - транс и скрипка.mp3
+163:avto/dnb_-_english_dnb_2_(eee.fm).mp3
+164:avto/Dram and Bass.mp3
+165:avto/Dram'n'Base - Гитара.mp3
+166:avto/Drum and Bass - Красивый женский вокал  (audiopoisk.com).mp3
+167:avto/elektronnaya-muzyka-kazantip.mp3
+168:avto/Empire Of The Sun - We Are The People (original).mp3
+169:avto/ESTRADARADA - ГаляГуляй.mp3
+170:avto/ESTRADARADA - Май Вэй #MYWAY.mp3
+171:avto/ESTRADARADA - Почти Полина Гагарина.mp3
+172:avto/ESTRADARADA_-_Love is (Асфальт).mp3
+173:avto/Faze Miyake - Gunpowder.mp3
+174:avto/Gabin – It Don't Mean A Thing.mp3
+175:avto/John Murphy  - Bass Theme (OST Карты,деньги и два ствола.mp3
+176:avto/KaZantip  - Гимн 2010.mp3
+177:avto/Kazantip -  Open !).mp3
+178:avto/Koop feat. Ane Brun - Island Blues.mp3
+179:avto/linkin_park_and_x-dnb_-_in_the_end_dnb_(eee.fm).mp3
+180:avto/Moby – One Of These Mornings.mp3
+181:avto/Parov Stelar and Band – Libella Swing.mp3
+182:avto/parov-stelar-the-princess-lexus-2017-(mp3-you.net).mp3
+183:avto/Prodigy 2010 - Dubstep Fm Archive - 2010-02-2 - wap.kengu.ru.mp3
+184:avto/RD87 - Rain Washing Away Memories.mp3
+185:avto/RD87 - The Ugly Mask of Lie.mp3
+186:avto/Röyksopp_-_Here She Comes Again (Dj Antonio Remix).mp3
+187:avto/School Of Rock - (OST Школа рока).mp3
+188:avto/Spiller feat. Sophie Ellis-Bextor – Groove Jet.mp3
+189:avto/The Stone Roses - Fools gold ( OST деньги, карты и два дымящихся ствола).mp3
+190:avto/Telepopmusic – Breath.mp3
+191:avto/Tina Turner – The Best.mp3
+192:avto/Trebles and Blues - A Blunted Dedication.mp3
+193:avto/Trebles and Blues - Experiment C (The Grand Finale).mp3
+194:avto/Trebles and Blues - Introductory Piece.mp3
+195:avto/Trebles and Blues - Midnight Zone Out.mp3
+196:avto/Trebles and Blues - Peace.mp3
+197:avto/Trebles and Blues - The Soulmate that Seldom Speaks.mp3
+198:avto/Trebles and Blues - The Stars Align.mp3
+199:avto/Trebles and Blues - You Wonder, Wonder, Wonder.mp3
+200:avto/Trebles And Blues + No Alias - In The Darkness Lies The Stars.mp3
+201:avto/VjRedzzz - She Played Me.mp3
+202:avto/Wax Tailor -  Que sera(Remix).mp3
+203:avto/The XX - Intro.mp3
+204:avto/yurik Kravchenko -  - dRAM_eNd_bASE_[ demo].mp3
+205:lastlas/Ирина Аллегрова - Цветы без повода(СТУДИЯ).mp3
+206:lastlas/Криминальное чтиво - Траволта.mp3
+207:lastlas/Криминальное чтиво - Surf Rider.mp3
+208:lastlas/Alice Merton - No Roots.mp3
+209:lastlas/Coolio feat. L.V. - Gangstas Paradise.mp3
+210:lastlas/Daft Punk - Get Lucky.mp3
+211:lastlas/DJ Benzina - (DJ HaLF Remix).mp3
+212:lastlas/DJ Breez - When You Funny.mp3
+213:lastlas/Dr Dre Snoop Dog (remix) - Still Dre.mp3
+214:lastlas/Fontano feat. Artego - 9 Хризантем (feat. Artego).mp3
+215:lastlas/FREE FLOW FLAVA - Delusion - Coub - Coub (high_1521321539_high).mp3
+216:lastlas/Haddaway N. - What is Love.mp3
+217:lastlas/Imagine Dragons - Believer.mp3
+218:lastlas/Jay West - Smile.mp3
+219:lastlas/Jigg - So Hot.mp3
+220:lastlas/katty who - I kissed a girl SLOWED - DOWN.mp3
+221:lastlas/Kevin McKay - Everybody Get On The Floor (Original Mix).mp3
+222:lastlas/Liu - Step Ahead  (Extended Mix).mp3
+223:lastlas/Liu - Step Ahead.mp3
+224:lastlas/lykke li - I Follow You.mp3
+225:lastlas/Music  of  Kings - nicebeatzprod - et je danse.mp3
+226:lastlas/Newtone - Run.mp3
+227:lastlas/Original - Angetenar (Original Mix).mp3
+228:lastlas/Paul Oakenfold - Ready Steady Go.mp3
+229:lastlas/Plain White Ts - Song 2.mp3
+230:lastlas/Rusty Mustard - When You Smile.mp3
+231:lastlas/SouLM - Liu feat. Vano - Step Ahead (Extended Mix).mp3
+232:lastlas/Vinne Verse - Mine.mp3
+233:lastlas/Zaz - Je veux.mp3
+234:31.05.18/_DJ_Franzose_15_02_2012.mp3
+235:31.05.18/[muzmo.ru] Лабада - случайная [muzmo.ru].mp3
+236:31.05.18/алексей-воробьёв-я-тебя-люблю-топ-100-лучших-русских-песен-2.mp3
+237:31.05.18/Афера Томаса Крауна.mp3
+238:31.05.18/би джис - Без названия.mp3
+239:31.05.18/Вахтанг - Довела (Roma Pafos Remix).mp3
+240:31.05.18/Владимир Кузьмин - Я не забуду тебя (Сибирские морозы).mp3
+241:31.05.18/Гайтана - самый вкусный шоколад! .mp3
+242:31.05.18/Грибы - Тает лёд.mp3
+243:31.05.18/Казантип - Гимн 2008.mp3
+244:31.05.18/КАЗАНТИП - КАЗАНТИП.mp3
+245:31.05.18/Команда  - Baby, I'm yours.mp3
+246:31.05.18/руки-вверх-плачешь-в-темноте-топ-100-лучших-русских-песен-20.mp3
+247:31.05.18/Фарсаж   7 - Саундтрек Из Машины Вин Дизеля.mp3
+248:31.05.18/Филадельфия.mp3
+249:31.05.18/Элджей - Минимал.mp3
+250:31.05.18/Alok – Hear Me Now (feat. Zeeba).mp3
+251:31.05.18/Armin van Buuren - Hold On To Me (Drum'n'Bass mix).mp3
+252:31.05.18/Aurosonic feat. Kate Louise Smith - Open Your Eyes (Drum & Bass Mix).mp3
+253:31.05.18/The Avener ft. Ane Brun - To Let Myself Go.mp3
+254:31.05.18/Bob Dylan- - Knockin' on Heaven's Door - саундтрек к фильму -Достучаться до небес-..mp3
+255:31.05.18/Calvin Harris, Dua Lipa - One Kiss.mp3
+256:31.05.18/calvin-harris-and-dua-lipa-one-kiss-top-100-of-foreign-songs.mp3
+257:31.05.18/Carmen McRae & Dave Brubeck - Take Five.mp3
+258:31.05.18/Coldplay - Adventure of a Lifetime.mp3
+259:31.05.18/David Guetta & Cedric Gervais_-_Would I Lie To You (Radio Edit).mp3
+260:31.05.18/Dj_A-zone_Ft_Dj_Boyko-Kazantip_один_из_лучших_треков_казантипа__(mp3na.ru).mp3
+261:31.05.18/Dj_Nikolas-Kazantip_2011Exclusive_Club_Music.mp3
+262:31.05.18/Dram and Bass.mp3
+263:31.05.18/EA7 - Duke Dumont - Ocean Drive.mp3
+264:31.05.18/elektronnaya-muzyka-kazantip.mp3
+265:31.05.18/Empire Of The Sun - We Are The People (original).mp3
+266:31.05.18/Future Prophecies - September [Drum and Bass].mp3
+267:31.05.18/Hippie Sabotage – Different (Jarico Remix).mp3
+268:31.05.18/KaZantip  - Гимн 2010.mp3
+269:31.05.18/Kazantip -  Open !).mp3
+270:31.05.18/kazantip_-_samyy-luchshiy.mp3
+271:31.05.18/Kazantip_gimn_2010_goda_2_avgusta_Open_Air_MpArtem_(mp3co.ooo).mp3
+272:31.05.18/KaZantip_Gimn_Kazantipa_2008_remiks_(mp3co.ooo).mp3
+273:31.05.18/Kazantip_superskoe_nachalo_pesni_(mp3co.ooo).mp3
+274:31.05.18/Koop feat. Ane Brun - Island Blues.mp3
+275:31.05.18/legkiy-trans-luchshiy-vokal-2012.mp3
+276:31.05.18/matrang-медуза-топ-100-лучших-русских-песен-2018.mp3
+277:31.05.18/merk-and-kremont-feat-dnce-hands-up-top-100-of-foreign-songs.mp3
+278:31.05.18/parov-stelar-the-princess-lexus-2017-(mp3-you.net).mp3
+279:31.05.18/Record Tropical – Space 9, Josh Tobias - It's Your Night.mp3
+280:31.05.18/Röyksopp_-_Here She Comes Again (Dj Antonio Remix).mp3
+281:31.05.18/SMOTRA.FM ZAPOROZH'YE - Reality.mp3
+282:31.05.18/Trebles And Blues + No Alias - In The Darkness Lies The Stars.mp3
+283:31.05.18/Vavan Ака Вова Селиванов –  Велосипед .mp3
+284:31.05.18/The XX - Intro.mp3
+285:14.09.18/_DJ_Franzose_15_02_2012.mp3
+286:14.09.18/Афера Томаса Крауна.mp3
+287:14.09.18/би джис - Без названия.mp3
+288:14.09.18/Вахтанг - Довела (Roma Pafos Remix).mp3
+289:14.09.18/Alok – Hear Me Now (feat. Zeeba).mp3
+290:14.09.18/Hippie Sabotage – Different (Jarico Remix).mp3
+291:14.09.18/Future Prophecies - September [Drum and Bass].mp3
+292:14.09.18/Kazantip -  Open !).mp3
+293:14.09.18/KaZantip  - Гимн 2010.mp3
+294:14.09.18/KaZantip_Gimn_Kazantipa_2008_remiks_(mp3co.ooo).mp3
+295:14.09.18/legkiy-trans-luchshiy-vokal-2012.mp3
+296:14.09.18/MagnusTheMagnus-Area(mega-music.net).mp3
+297:14.09.18/merk-and-kremont-feat-dnce-hands-up-top-100-of-foreign-songs.mp3
+298:14.09.18/SMOTRA.FM ZAPOROZH'YE - Reality.mp3
 playlist_end

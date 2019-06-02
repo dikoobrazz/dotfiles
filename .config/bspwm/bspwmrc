@@ -45,8 +45,6 @@ bspc config normal_border_color "#08090a"
 
 ## workspace 1 (labs)
 bspc rule -a URxvt desktop='^1' follow=on focus=on
-bspc rule -a Tilix desktop='^1' follow=on focus=on
-
 ## workspace 2 (web browsers)
 bspc rule -a Firefox-esr desktop='^2' follow=on focus=on
 bspc rule -a Chromium desktop='^2' follow=on focus=on
@@ -112,8 +110,8 @@ bspc rule -a Viewnior state=floating follow=on
 bspc rule -a Gpicview state=floating follow=on
 bspc rule -a sayonara state=floating manage=on
 bspc rule -a Steam state=floating manage=on
-bspc rule -a konsole state=floating manage=on
-bspc rule -a Tilix state=floating manage=on
+bspc rule -a Konsole state=floating
+bspc rule -a tilix state=floating manage=on
 bspc rule -a virtualbox state=floating manage=on
 bspc rule -a XTerm state=floating manage=on
 #bspc rule -a Xterm:xdg-su state=floating manage=on

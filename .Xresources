@@ -2,7 +2,7 @@
 ! URxvt Color theme
 ! ------------------------------------------------------------------------------
 
-URxvt*font: xft:Source Code Pro For Powerline:pixelsize=13:minspace=False, xft:DejaVu Sans:pixelsize=11
+URxvt*font: xft:Source Code Pro For Powerline:pixelsize=14:minspace=False, xft:DejaVu Sans:pixelsize=11
 
 !URxvt*font: xft:Inconsolata Nerd Font Mono:pixelsize=16:minspace=False, xft:DejaVu Sans:pixelsize=11
 !URxvt*boldFont: xft:Inconsolata Nerd Font Mono:pixelsize=16:minspace=False, xft:DejaVu Sans:pixelsize=11
@@ -97,7 +97,8 @@ URxvt.tabbed.tab-fg:    15
 URxvt.tabbed.tab-bg:    4
 URxvt*buffered:         false
 
-
+!rofi.font: Source Code Pro For Powerline 10
+rofi.font: Note Sans 10
 rofi.color-enabled: true
 rofi.color-window: #1d1d1d, #1d1d1d, #1d1d1d
 rofi.color-normal: #1d1d1d, #d8dee8, #1d1d1d, #1d1d1d, #bf616a
@@ -113,7 +114,7 @@ dmenu.foreground:	        #d8dee8
 
 ! XTerm - terminal settings
 
-XTerm*faceName: Source Code Pro For Powerline:size=10
+XTerm*faceName: Source Code Pro For Powerline:size=11
 !XTerm*background: #1d1d1d
 !XTerm*foreground: white
 XTerm*loginShell: true

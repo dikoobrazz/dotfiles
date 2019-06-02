@@ -1,4 +1,7 @@
 MusicDir ="/home/zulu/Музыка"
 AutoNext = yes
 Theme = green_theme
-
+ReadTags = no
+#ID3v1TagsEncoding = WINDOWS-1251
+#UseRCC = yes
+#UseRCCForFilesystem = yes

@@ -1,5 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/java/jdk-11.0.2/:$PATH
+export PATH=$HOME/go/bin:$PATH
+export GOPATH=$HOME/go:$HOME/Projects/www/Go
+
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/zulu/.oh-my-zsh"
@@ -8,13 +12,13 @@ export XDG_CONFIG_HOME=$HOME/.config
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 #ZSH_THEME="af-magic"
 #ZSH_THEME="kennethreitz"
 #ZSH_THEME="miloshadzic"
 #ZSH_THEME="minimal"
 #ZSH_THEME="sporty_256"
-ZSH_THEME="terminalparty"
+#ZSH_THEME="terminalparty"
 #ZSH_THEME="fino"
 #ZSH_THEME="jispwoso"
 
@@ -33,7 +37,7 @@ alias ss='sudo su'
 alias .v='vim ~/.vimrc'
 alias .z='vim ~/.zshrc'
 alias .w='vim ~Projects/www'
-alias c='clear' 
+alias c='clear'
 alias ls='ls --color=auto --group-directories-first'
 alias la='ls -lAh --color=auto --group-directories-first'
 alias ping='ping -c 3'
@@ -52,7 +56,14 @@ alias mn='ncmpcpp'
 alias fv='vifm'
 alias fr='ranger'
 alias sz='sudo zypper'
-alias config='/usr/bin/git --git-dir=$HOME/Документы/dotfiles/ --work-tree=$HOME' 
+alias ed='emacs --daemon'
+alias ec='emacsclient -c'
+alias e='emacs -nw'
+alias b='cd ..'
+alias syncboost='rclone sync /home/zulu/GDrive/Dropbox/Boostnote Dropbox-boost:Boostnote'
+alias syncpcloud='rclone sync /home/zulu/GDrive/pCloud/ pcloud:HUB'
+alias config='/usr/bin/git --git-dir=$HOME/Документы/dotfiles/ --work-tree=$HOME'
+
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -161,6 +172,24 @@ function cF {
 #fi
 
 #eval "$(fasd --init auto)"
+
+bindkey -v
+
+bindkey '^P' up-history
+bindkey '^N' down-history
+bindkey '^?' backward-delete-char
+bindkey '^h' backward-delete-char
+bindkey '^w' backward-kill-word
+bindkey '^r' history-incremental-search-backward
+
+#function zle-line-init zle-keymap-select {
+#    VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
+#    RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_custom_status) $EPS1"
+#    zle reset-prompt
+#}
+
+#zle -N zle-line-init
+#zle -N zle-keymap-select
 
 BROWSER=/usr/bin/chromium
 EDITOR=/usr/bin/vim

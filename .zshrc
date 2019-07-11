@@ -195,3 +195,5 @@ BROWSER=/usr/bin/chromium
 EDITOR=/usr/bin/vim
 
 stty -ixon
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

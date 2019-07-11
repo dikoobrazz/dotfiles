@@ -36,3 +36,5 @@ unset fasd_cache
 test -s ~/.alias && . ~/.alias || true
 stty -ixon
 exec zsh
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

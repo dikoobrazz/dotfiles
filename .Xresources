@@ -100,6 +100,7 @@ URxvt*buffered:         false
 !rofi.font: Source Code Pro For Powerline 10
 rofi.font: Note Sans 10
 rofi.color-enabled: true
+rofi.show-icons: true
 rofi.color-window: #1d1d1d, #1d1d1d, #1d1d1d
 rofi.color-normal: #1d1d1d, #d8dee8, #1d1d1d, #1d1d1d, #bf616a
 rofi.color-active: #1d1d1d, #b48ead, #1d1d1d, #1d1d1d, #93e5cc

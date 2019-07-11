@@ -1,0 +1,11 @@
+{
+    "auto_formatting": true,
+    "anaconda_gutter_theme": "Dark",
+    "anaconda_linter_mark_style": "none",
+    "pep8_ignore":
+    [
+        "E501",
+        "E402"
+    ],
+
+}

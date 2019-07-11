@@ -1,0 +1,15 @@
+[   {"keys": ["ctrl+alt+b"], "command": "reindent", "args": { "single_line": false } },
+    {"keys": ["ctrl+shift+s"], "command": "toggle_side_bar"},
+    {"keys": ["ctrl+shift+b"], "command": "toggle_status_bar"},
+    {"keys": ["ctrl+shift+m"], "command": "toggle_menu"},
+    {"keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
+      [
+          { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
+          { "match_all": true, "key": "selection_empty" },
+          { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+          { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+          { "match_all": true, "key": "is_abbreviation" }
+      ]
+    }
+
+]

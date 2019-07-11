@@ -1,0 +1,41 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json",
+		"https://maiboroda.pro/api/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Anaconda",
+		"AutoFileName",
+		"Babel",
+		"Base16 Color Schemes",
+		"BracketHighlighter",
+		"Dracula Color Scheme",
+		"EasyMotion",
+		"Emmet",
+		"gruvbox",
+		"Gutter Color",
+		"Inspired GitHub Color Scheme",
+		"MarkdownLivePreview",
+		"Material Theme",
+		"One Half Color Schemes",
+		"Package Control",
+		"Quick File Creator",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"SublimeCodeIntel",
+		"Theme - amCoder",
+		"Theme - City Lights",
+		"Theme - Soda SolarizedDark",
+		"Theme - Tech49",
+		"Tomorrow Color Schemes",
+		"Virtualenv"
+	]
+}

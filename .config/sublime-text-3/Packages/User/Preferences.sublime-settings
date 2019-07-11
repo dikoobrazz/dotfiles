@@ -1,0 +1,101 @@
+{
+	"auto_complete": true,
+	"auto_complete_cycle": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.py"
+		}
+	],
+	"binary_file_patterns":
+	[
+		"*.bz2",
+		"*.cache",
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.gz",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tar",
+		"*.tga",
+		"*.ttf",
+		"*.zip"
+	],
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 0,
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/Theme - Tech49/Tech49.tmTheme",
+	"draw_white_space": "selection",
+	"folder_exclude_patterns":
+	[
+		".bundle",
+		".hg",
+		".sass-cache",
+		".svn",
+		"bin",
+		"CVS",
+		"tmp",
+		"data/*",
+		"log/*",
+		"logs/*",
+		"node_modules/*",
+		"vendor/*",
+		"*.log"
+	],
+	"font_face": "Anonymous Pro",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 13,
+	"gruvbox_accent_red": true,
+	"gruvbox_autocomplete_cramped": true,
+	"gruvbox_scrollbar_width_xs": true,
+	"gruvbox_sidebar_font_size_11": true,
+	"gruvbox_sidebar_heading_bold": true,
+	"gruvbox_statusbar_xs": true,
+	"gruvbox_tabs_autowidth": true,
+	"gruvbox_tabs_xs": true,
+	"gruvbox_underline_active_tab_thick": true,
+	"gutter": true,
+	"highlight_line": false,
+	"ignored_packages":
+	[
+		"SublimeLinter",
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"margin": 0,
+	"material_theme_accent_indigo": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
+	"material_theme_titlebar": true,
+	"rulers":
+	[
+		120
+	],
+	"save_on_focus_lost": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "Tech49.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

@@ -38,3 +38,4 @@ stty -ixon
 exec zsh
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export PATH="$HOME/.rbenv/bin:$PATH"

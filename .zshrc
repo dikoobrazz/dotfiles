@@ -3,7 +3,10 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/usr/java/jdk-11.0.2/:$PATH
 export PATH=$HOME/go/bin:$PATH
 export GOPATH=$HOME/go:$HOME/Projects/www/Go
+export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/.rbenv/shims:$PATH
 
+eval "$(rbenv init -)"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/zulu/.oh-my-zsh"
@@ -34,8 +37,9 @@ CASE_SENSITIVE="true"
 
 alias .='cd'
 alias ss='sudo su'
-alias .v='vim ~/.vimrc'
-alias .z='vim ~/.zshrc'
+alias .nv='nvim ~/.config/nvim/init.vim'
+alias .v='vim ~/.vim/vimrc'
+alias .z='nvim ~/.zshrc'
 alias .w='vim ~Projects/www'
 alias c='clear'
 alias ls='ls --color=auto --group-directories-first'

@@ -57,5 +57,5 @@ auto-completion-tab-key-behavior = "smart"
 name = "lang#javascript"
 
 [[layers]]
-  name = "lang#go"
+  name = "lang#ruby"
 

@@ -1,0 +1,120 @@
+call plug#begin()
+
+Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-ragtag'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'christoomey/vim-system-copy'
+Plug 'rafi/awesome-vim-colorschemes'
+
+call plug#end()
+
+set number
+syntax on
+set tabstop=2  shiftwidth=2 softtabstop=2 smarttab expandtab smartindent
+" Cтрока ниже нужна для того что бы в нормальном режиме работали английская раскладка
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+filetype plugin indent on
+set backspace=indent,eol,start
+set complete-=i
+set nocompatible " откл совместимости с Vi
+set t_Co=256
+set t_ut=
+set hlsearch    " включаем подсветку слов при поиске;
+set incsearch   " улучшаем видимость подсветки слов при поиске;
+set ignorecase 
+set smartcase 
+set cursorline
+"set textwidth=80
+"set colorcolumn=+1
+set background=dark
+"set termguicolors
+"colorscheme codedark
+colorscheme dracula
+let g:mapleader=","
+
+nmap <Leader><Space> :nohlsearch<cr> " Отключение подсветки найденных совпадений в файле
+" Для лучшего поиска по фаилам и катологам с помощью :find
+" А так же для поиска по буферам :b 
+set path+=**
+set wildmenu
+
+" C-tags Создает фал tags. Можно найти определение ф-ции в проекте
+" Перед использованием в консоли vim :!ctags -R .
+" USe Ctrl+] to jump to tag under cursor
+" USe g+Ctrl+] for ambiguous tag
+" USe Ctrl+t to jump back up the tag stack
+command! MakeTags !ctags -R .
+
+"Autocomplete - documentation |:help ins-completion|
+" Ctrl+n or ^n. ^ - Ctrl
+" Ctrl+p back search
+" - ^x^n автокомплит только из текущего файла
+" - ^x^f автокомплит пути к файлу
+" - ^x^] автокоплит по ctags
+" Переделаем на кнопку Tab
+" imap <Tab> <C-n>
+
+" FILE BROWSING:
+" Применение
+" - :edit - открывает текущую папку в файловом менеджере
+" - <CR>/v/t - открывает фаил - гориз_сплит/верт_сплит/таб   
+" - check |netrw-browse-maps| for more mappings
+" - % - create new file in current drectory
+" НАСТРОЙКИ:
+let g:netrw_banner=0        " disable annoying banner
+let g:netrw_browse_split=4  " open in previous window
+let g:netrw_altv=1          " open splits to the right
+let g:netrw_liststyle=3     " tree view
+let g:netrw_list_hide=',\(^\|\s\s\)\zs\.\S\+'
+let g:netrw_winsize=15
+let g:netrw_hide=0
+" augroup ProjectDrawer
+"   autocmd!
+"   autocmd VimEnter * :Vexplore .
+" augroup END
+" Назначим клавиши
+" nmap <leader>f :edit .<cr>
+nmap <leader>f :Vexplore .<cr>
+" Open file browsers buffer
+" nnoremap ,n :buffers<CR>:buffer <Space>
+nnoremap bb :buffers<CR>:buffer <Space>
+" Search file
+nmap ff :find<Space>
+
+"Команды VIM
+" :helpgerp windows - просмотр всего help что связанно с windows
+" "ad - удалить в буфер 'a'
+" "ap - вставить из буфера 'a'
+" "+yy - копировать в буфер обмена
+
+" Copy to clipboard
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
+
+" Set line number
+set number relativenumber
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
+
+" WINDOWS
+" Resize window split
+nnoremap <leader>v :vertical resize 150<cr>
+nnoremap <leader>h :resize 40<cr>
+
+" Jump to windows
+nmap <C-J> <C-W><C-J> " ctrl-j (вместо ctrl-W-J)
+nmap <C-K> <C-W><C-K> " ctrl-K (вместо ctrl-W-K)
+nmap <C-H> <C-W><C-H> " ctrl-H (вместо ctrl-W-H)
+nmap <C-L> <C-W><C-L> " ctrl-L (вместо ctrl-W-L)
+" Maximize current split horizontally and vertically
+map <F5> <C-W>_<C-W><Bar>
+

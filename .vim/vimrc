@@ -64,7 +64,7 @@ set background=dark
 "colorscheme codedark
 "colorscheme dracula
 "colorscheme orbital
-"colorscheme paramount
+" colorscheme paramount
 "colorscheme hybrid_reverse
 colorscheme minimalist
 highlight NonText guifg=bg
@@ -181,7 +181,7 @@ vnoremap <F1> <ESC>
 
 " Autosave при нажатии Esc
 inoremap <Esc> <Esc>:w<cr>
-"nnoremap <Esc> <Esc>:w<cr>
+nnoremap <Esc> <Esc>:w<cr>
 
 " Открыть vimrc в окне справа
 nnoremap <leader>v <C-w><C-v><C-l>:e $MYVIMRC<cr>
@@ -303,9 +303,9 @@ set statusline+=%1*\%=
 set statusline+=%1*\ %{StatuslineGit()}
 set statusline+=%1*\ ‹‹
 set statusline+=%1*\ %{strftime('%R',getftime(expand('%')))}
-set statusline+=%1*\ ::
-set statusline+=%1*\ #%n
-set statusline+=%1*\ ::
+set statusline+=%2*\ [
+set statusline+=%2*\#%n
+set statusline+=%2*\]
 set statusline+=%1*\ %r%w\%P
 set statusline+=%1*\ ››\ %*
 

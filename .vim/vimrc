@@ -1,0 +1,159 @@
+" == PLUGINS ---------------------------------------------------------------- {{{
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'jiangmiao/auto-pairs'
+" Plug 'tpope/vim-endwise'
+" Plug 'tpope/vim-ragtag'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-unimpaired'
+Plug 'christoomey/vim-system-copy'
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'easymotion/vim-easymotion'
+Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle' }
+Plug 'ryanoasis/vim-devicons'
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
+" == }}}
+
+set nocompatible
+set termencoding=utf-8
+set encoding=utf-8
+set nrformats=
+set noswapfile
+set nobackup
+set tabstop=2  shiftwidth=2 softtabstop=2 smarttab expandtab smartindent
+set ruler
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+syntax on
+filetype plugin indent on
+set backspace=indent,eol,start
+set background=dark
+set ignorecase
+set smartcase
+set showmatch
+set gdefault
+set cursorline
+set wrap
+set linebreak
+set scrolloff=5
+set hidden
+set history=10000
+set number 
+set expandtab
+set hlsearch
+set incsearch
+"set t_Co=256
+set termguicolors
+
+colorscheme gruvbox
+
+" set fillchars=vert:\u2502,horiz:\u2500,horizup:\u2534,horizdown:\u252c,vertleft:\u2524,vertright:\u251c,verthoriz:\u253c
+" set fillchars=vert:\│,horiz:\─,horizup:\┴,horizdown:\┬,vertleft:\┤,vertright:\├,verthoriz:\┼
+" set fillchars=vert:\│,horiz:\─
+let &fillchars ..= ',eob: '
+let g:mapleader=","
+
+" RELATIVE line number settings
+set number relativenumber
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
+
+
+" OFF HIGHLITE SEARCH RESULT:
+nmap <space>s :noh<CR>
+
+" Перереопределяем клавиши j k для лучшего перехода по переносимым строкам
+noremap j gj
+noremap k gk
+
+" Jump to windows:
+nmap <C-J> <C-W><C-J> " ctrl-j (вместо ctrl-W-J)
+nmap <C-K> <C-W><C-K> " ctrl-K (вместо ctrl-W-K)
+nmap <C-H> <C-W><C-H> " ctrl-H (вместо ctrl-W-H)
+nmap <C-L> <C-W><C-L> " ctrl-L (вместо ctrl-W-L)
+
+" FINDING FILES:
+set path+=**
+set wildmenu
+
+" TAG JUMPING:
+command! MakeTags !ctags -R .
+
+" COC EXPLORER:
+nmap <leader>e <Cmd>CocCommand explorer<CR>
+
+" NerdTree Setting:
+map <leader><leader> :NERDTreeToggle<cr>
+" let NERDTreeQuitOnOpen = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
+
+" FILE BROWSING
+" you can 
+" :edit . - a folder to open a file browser
+" <CR>/v/t to open in an h-split/v-split/tab
+" check |netrw-browse-maps| for more mappings
+autocmd FileType netrw setl bufhidden=delete
+let g:netrw_banner=1
+" let g:netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_liststyle=3
+let g:netrw_list_hide=',\(^\|\s\s)\zs\.\S\+'
+let g:netrw_hide=1
+map <leader>f :Explore .<cr>
+
+" FZF keymap
+let g:fzf_action = {
+    \ 'ctrl-q': 'bdelete',
+    \ 'ctrl-t': 'tab split',
+    \ 'ctrl-x': 'split',
+    \ 'ctrl-v': 'vsplit' }
+nmap fb :Buffers<cr>
+nmap ff :Files<cr>
+nmap fc :Colors<cr>
+nmap fg :Rg<cr>
+nmap db :bdelete<cr>
+
+" EASYMOTION keymap
+map <Leader> <Plug>(easymotion-prefix)
+
+" COC TAB Settings
+let g:endwise_no_mappings = 1
+let g:go_def_mapping_enabled = 0
+
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~ '\s'
+endfunction
+
+" Insert <tab> when previous text is space, refresh completion if not.
+inoremap <silent><expr> <TAB>
+\ coc#pum#visible() ? coc#pum#next(1):
+\ CheckBackspace() ? "\<Tab>" :
+\ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+inoremap <expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<CR>"
+" inoremap <silent><expr> <CR> coc#pum#visible() ? coc#_select_confirm()
+      " \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+" Create cnippets
+" nnoremap .html :-1read $HOME/.vim/snippet/.sceleton.html<CR>3jwf>a
+" nnoremap .go :-1read $HOME/.vim/snippet/.mainfile.go<CR>3ji<tab>

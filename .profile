@@ -2,8 +2,8 @@
 export GOPATH=$HOME/go
 export GOPATH=$GOPATH:$HOME/Code/Go
 export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin:/$HOME/Code/Go/bin
-export TERM=alacritty
-export TERMINAL=/usr/bin/alacritty
+export TERM=kitty
+export TERMINAL=/usr/bin/kitty
 export BROWSER=/usr/bin/vivaldi
 export EDITOR=/usr/bin/vim
 # export QT_QPA_PLATFORMTHEME=qt5ct

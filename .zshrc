@@ -178,14 +178,14 @@ alias rsvpn='systemctl restart wg-quick@wg0.service'
 alias .='cd'
 alias mk='mkdir'
 alias tf='touch'
-alias .nv='nvim ~/.config/nvim/lua'
-alias .cnv='cd /home/milk/.config/nvim && nvim'
+# alias .nv='nvim ~/.config/nvim/lua'
+alias .nv='cd /home/milk/.config/nvim && nvim'
 alias .v='vim ~/.vim/vimrc'
 alias .z='vim ~/.zshrc'
 alias .k='vim ~/.config/kitty/kitty.conf'
-alias .t='vim ~/.config/termite/config'
+# alias .t='vim ~/.config/termite/config'
 alias .p='vim ~/.profile'
-alias .kak='kak ~/.config/kak/kakrc'
+# alias .kak='kak ~/.config/kak/kakrc'
 alias .a='vim ~/.config/alacritty/alacritty.toml'
 alias c='clear'
 alias ls='ls --color=auto --group-directories-first'
@@ -238,8 +238,8 @@ function cF {
 # default apps 
 export BROWSER=/usr/bin/vivaldi
 export EDITOR=/usr/bin/vim
-export TERM=alacritty
-export TERMINAL=/usr/bin/alacritty
+export TERM=kitty
+export TERMINAL=/usr/bin/kitty
 
 ## vifm ##
 export PATH=$PATH:$HOME/.config/vifm/scripts

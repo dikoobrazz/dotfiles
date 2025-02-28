@@ -25,8 +25,8 @@
   </placement>
   <!-- Theme -->
   <theme>
-    <name>OB-Gray</name>
-    <titleLayout>LC</titleLayout>
+    <name>OB-Arc-Dark</name>
+    <titleLayout>DLIMC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
@@ -95,10 +95,10 @@
   </resize>
   <!-- Margin -->
   <margins>
-    <top>80</top>
-    <bottom>20</bottom>
-    <left>20</left>
-    <right>20</right>
+    <top>42</top>
+    <bottom>10</bottom>
+    <left>10</left>
+    <right>10</right>
   </margins>
   <!-- Dock -->
   <dock>
@@ -1129,7 +1129,7 @@
   </mouse>
   <!-- ################################ Menu Settings ################################ -->
   <menu>
-    <file>menu-minimal.xml</file>
+    <file>menu-icons.xml</file>
     <showIcons>yes</showIcons>
     <hideDelay>400</hideDelay>
     <middle>no</middle>

@@ -51,7 +51,7 @@ geany_font='JetBrainsMono Nerd Font 10'
 gtk_font='Noto Sans 9'
 gtk_theme='Arc-Dark'
 icon_theme='Arc-Circle'
-cursor_theme='Qogirr'
+cursor_theme='Future'
 
 # Openbox
 ob_theme='OB-Arc-Dark'

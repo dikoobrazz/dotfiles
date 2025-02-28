@@ -1,10 +1,8 @@
 ## Copyright (C) 2020-2024 Aditya Shakya <adi1090x@gmail.com>
 
-## Net/ThemeName "Arc-Dark"
-Net/ThemeName "OB-Arc-Carbon"
+Net/ThemeName "OB-Adapta-Nokto"
 Net/IconThemeName "Arc-Circle"
-#Gtk/CursorThemeName "Qogirr"
-Gtk/CursorThemeName "Future"
+Gtk/CursorThemeName "Qogirr"
 Net/EnableEventSounds "0"
 Net/EnableInputFeedbackSounds "0"
 Xft/DPI "-1"

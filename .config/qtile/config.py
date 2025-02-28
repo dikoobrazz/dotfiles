@@ -29,6 +29,12 @@ import os
 import subprocess
 from libqtile import hook
 
+## Bar
+# from colors import nord_fox
+# from bar1 import bar
+
+
+
 ## Startup ------------------------------
 @hook.subscribe.startup_once
 def autostart():
@@ -52,7 +58,7 @@ volume       = home + '/.config/qtile/scripts/qtile_volume'
 screenshot   = home + '/.config/qtile/scripts/qtile_screenshot'
 file_manager = 'thunar'
 text_editor  = 'geany'
-web_browser  = 'firefox'
+web_browser  = 'vivaldi'
 alacritty    = 'alacritty --config-file ' + home + '/.config/qtile/alacritty/alacritty.toml'
 rofi_applets = home + '/.config/qtile/scripts/'
 notify_cmd   = 'dunstify -u low -h string:x-dunst-stack-tag:qtileconfig'
@@ -80,9 +86,16 @@ keys = [
 
 	# Terminal : kitty --
     Key(
-		["control", "mod1"], "t", 
-		lazy.spawn(term_kitty), 
+		["control"], "Return", 
+		lazy.spawn("kitty"), 
 		desc="Launch kitty with qtile configs"
+	),
+    
+    # Terminal : st --
+    Key(
+		["mod1"], "s", 
+		lazy.spawn("st"), 
+		desc="Launch st terminal"
 	),
 
 	# GUI Apps --
@@ -457,7 +470,7 @@ mouse = [
 ]
 
 ## Groups ------------------------------
-groups = [Group(i) for i in "12345678"]
+groups = [Group(i) for i in "123456789"]
 
 for i in groups:
     keys.extend(
@@ -491,7 +504,8 @@ var_normal_color = '#3d4555'
 var_border_width = 2
 var_margin = [5,5,5,5]
 # var_gap_top = 45
-var_gap_top = 29
+# var_gap_top = 29
+var_gap_top = 5
 var_gap_bottom = 5
 var_gap_left = 5
 var_gap_right = 5
@@ -728,7 +742,7 @@ layouts = [
 ## Screens ------------------------------
 
 # Default Qtile Bar (commented)
-"""
+'''
 screens = [
     Screen(
         bottom=bar.Bar(
@@ -758,8 +772,7 @@ screens = [
         ),
     ),
 ]
-"""
-
+'''
 # Any third-party statusbar (polybar) with Gaps
 screens = [
     Screen(
@@ -819,6 +832,10 @@ floating_layout = layout.Floating(
         Match(wm_class="qt6ct"),
         Match(wm_class="VirtualBox Manager"),
         Match(wm_class="qemu"),
+        Match(wm_class="AmneziaVPN"),
+        Match(wm_class="deluge"),
+        Match(wm_class="gpick"),
+        Match(wm_class="telegram-desktop"),
         Match(wm_class="Qemu-system-x86_64"),
         Match(title="branchdialog"),
     ]

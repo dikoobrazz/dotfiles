@@ -51,7 +51,7 @@ set number
 set expandtab
 set hlsearch
 set incsearch
-"set t_Co=256
+set t_Co=256
 set termguicolors
 
 colorscheme gruvbox

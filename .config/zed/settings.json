@@ -7,9 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "VSCode Icons (Dark)",
+  "icon_theme": "Material Icon Theme",
   "features": {
-    "edit_prediction_provider": "supermaven"
+    "edit_prediction_provider": "zed"
   },
   "assistant": {
     "default_model": {
@@ -19,14 +19,14 @@
     "version": "2"
   },
   "vim_mode": false,
-  "ui_font_size": 16,
-  "ui_font_family": "Iosevka",
+  "ui_font_size": 15,
+  "ui_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 14,
   "tab_size": 2,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Frappé",
+    "light": "Nord",
     "dark": "One Dark"
   }
 }

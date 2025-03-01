@@ -835,6 +835,7 @@ floating_layout = layout.Floating(
         Match(wm_class="AmneziaVPN"),
         Match(wm_class="deluge"),
         Match(wm_class="gpick"),
+        Match(wm_class="blueman-manager"),
         Match(wm_class="telegram-desktop"),
         Match(wm_class="Qemu-system-x86_64"),
         Match(title="branchdialog"),

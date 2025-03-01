@@ -25,8 +25,8 @@
   </placement>
   <!-- Theme -->
   <theme>
-    <name>OB-Arc-Dark</name>
-    <titleLayout>DLIMC</titleLayout>
+    <name>OB-Spark</name>
+    <titleLayout>LIMC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
@@ -95,8 +95,8 @@
   </resize>
   <!-- Margin -->
   <margins>
-    <top>42</top>
-    <bottom>10</bottom>
+    <top>10</top>
+    <bottom>58</bottom>
     <left>10</left>
     <right>10</right>
   </margins>

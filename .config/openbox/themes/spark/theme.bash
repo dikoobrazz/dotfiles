@@ -54,7 +54,7 @@ geany_font='JetBrainsMono Nerd Font 10'
 gtk_font='Noto Sans 9'
 gtk_theme='Spark'
 icon_theme='Luv-Folders'
-cursor_theme='Vimix'
+cursor_theme='Vimix-Dark'
 
 # Openbox
 ob_theme='OB-Spark'
@@ -62,10 +62,10 @@ ob_layout='LIMC'
 ob_font='JetBrains Mono'
 ob_font_size='9'
 ob_menu='menu-icons.xml'
-ob_margin_t='8'
-ob_margin_b='61'
-ob_margin_l='8'
-ob_margin_r='8'
+ob_margin_t='10'
+ob_margin_b='58'
+ob_margin_l='10'
+ob_margin_r='10'
 
 # Dunst
 dunst_width='300'

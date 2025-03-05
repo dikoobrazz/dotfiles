@@ -2,6 +2,8 @@
 
 Net/ThemeName "Nordic"
 Net/IconThemeName "Qogir-Dark"
+#Net/ThemeName "Arc-Dark"
+#Net/IconThemeName "Arc-Circle"
 Gtk/CursorThemeName "Future-Dark"
 Net/EnableEventSounds "0"
 Net/EnableInputFeedbackSounds "0"

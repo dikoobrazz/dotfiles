@@ -3,7 +3,7 @@
 ## Copyright (C) 2020-2024 Aditya Shakya <adi1090x@gmail.com>
 
 ## Current Theme
-STYLE="spark"
+STYLE="manhattan"
 
 ## Launch tint2 with selected theme
 launch_bar() {

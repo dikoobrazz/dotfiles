@@ -60,6 +60,7 @@ colorscheme gruvbox
 " set fillchars=vert:\│,horiz:\─,horizup:\┴,horizdown:\┬,vertleft:\┤,vertright:\├,verthoriz:\┼
 " set fillchars=vert:\│,horiz:\─
 let &fillchars ..= ',eob: '
+set list listchars=eol:¬,tab:>·,trail:·,extends:>,precedes:<
 let g:mapleader=","
 
 " RELATIVE line number settings

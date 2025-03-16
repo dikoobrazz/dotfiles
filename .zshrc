@@ -155,7 +155,7 @@ alias ohmyzsh="thunar ~/.oh-my-zsh"
 # ls
 alias l='ls -lh'
 alias ll='ls -lah'
-alias la='ls -A'
+alias la='ls -a'
 alias lm='ls -m'
 alias lr='ls -R'
 alias lg='ls -l --group-directories-first'
@@ -171,6 +171,8 @@ alias gl='git log'
 alias lol='git log --all --graph'
 
 # my aliases
+alias jp='vifm ~/Code/side_projects/java_projectsi -e :mkdir '
+alias gp='vifm ~/Code/Go/src/github.com'
 alias dot='/usr/bin/git --git-dir=/home/milk/dotfiles --work-tree=/home/milk'
 alias upvpn='wg-quick up wg0'
 alias dnvpn='wg-quick down wg0'
@@ -234,6 +236,26 @@ function cD {
 function cF {
   touch "$@" && ls -F
 }
+
+# alias create maven project
+function jmv {
+  cd ~/Code/side_projects/java_projects/ && \
+  mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.beoff.${1} -DartifactId=${1} -DarchetypeVersion=1.5 -DinteractiveMode=false -Dversion=1.0-SNAPSHOT
+}
+
+# alias create gradle project
+function jgr {
+  cd ~/Code/side_projects/java_projects/ && mkdir ${1} && cd ${1} && \
+  gradle init --type java-application --dsl groovy --test-framework junit --package com.beoff.${1} --project-name ${1} --no-split-project --java-version 17 <<< 'no'
+}
+# implementation language: Java
+# target Java version: 17
+# project name default:
+# application structure: single application project
+# build script DSL: Groovy
+# test framework: JUnit 4 
+# generate build using new APIs and behavior:no
+  # gradle init --language java --version 17 --type application --dsl groovy --test-framework junit --behavior none --package com.beoff.${1} --name ${1}
 
 # default apps 
 export BROWSER=/usr/bin/vivaldi

@@ -15,16 +15,6 @@ return {
                   -- parameterNames = { enabled = "all" },
                 },
                 signatureHelp = { enabled = false },
-                -- handlers = {
-                --   ["language/status"] = function(_, result, ctx, _)
-                --     if result.type == "ServiceReady" then
-                --       for _, bufnr in ipairs(vim.lsp.get_buffers_by_client_id(ctx.client_id)) do
-                --         vim.lsp.inlay_hint.enable(bufnr, false)
-                --         vim.lsp.inlay_hint.enable(bufnr, true)
-                --       end
-                --     end
-                --   end,
-                -- },
                 -- configuration = {
                 --   runtimes = {
                 --     {
@@ -33,6 +23,17 @@ return {
                 --     },
                 --   },
                 -- },
+                -- require("lspconfig").jdtls.setup({
+                --   root_dir = vim.fn.getcwd(),
+                --   filetypes = { "java" },
+                --   settings = {
+                --     java = {
+                --       project = {
+                --         sourcePaths = { "src" }, -- Указываем папку с исходниками
+                --       },
+                --     },
+                --   },
+                -- }),
               },
             },
           },

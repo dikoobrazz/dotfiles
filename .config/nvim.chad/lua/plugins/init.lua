@@ -30,6 +30,7 @@ return {
         "vimdoc",
         "yaml",
         "json",
+        "java",
       },
     },
   },
@@ -51,6 +52,7 @@ return {
         "yamlfmt",
         "jsonnetfmt",
         "taplo",
+        "jdtls",
         -- "yaml-language-server",
         -- "dockerfile-language-server",
       },
@@ -92,4 +94,59 @@ return {
   { "tpope/vim-unimpaired", lazy = false },
   { "tpope/vim-surround", lazy = false },
   { "easymotion/vim-easymotion", lazy = false },
+
+  {
+    "nvim-java/nvim-java",
+    lazy = false,
+    dependencies = {
+      "nvim-java/lua-async-await",
+      "nvim-java/nvim-java-core",
+      "nvim-java/nvim-java-test",
+      "nvim-java/nvim-java-dap",
+      "MunifTanjim/nui.nvim",
+      "neovim/nvim-lspconfig",
+      "mfussenegger/nvim-dap",
+      {
+        "williamboman/mason.nvim",
+        opts = {
+          registries = {
+            "github:nvim-java/mason-registry",
+            "github:mason-org/mason-registry",
+          },
+        },
+      },
+    },
+    config = function()
+      require("java").setup {
+        jdk = {
+          auto_install = false,
+          version = "17",
+          path = "/usr/lib/jvm/java-17-openjdk-amd64", -- Укажи свой путь
+        },
+      }
+      local nvlsp = require "nvchad.configs.lspconfig"
+      require("lspconfig").jdtls.setup {
+        cmd = {
+          "/home/milk/.local/share/nvim/mason/bin/jdtls",
+          "-configuration",
+          "/home/milk/.cache/jdtls/config",
+          "-data",
+          "/home/milk/.cache/jdtls/workspace",
+        },
+        on_attach = nvlsp.on_attach,
+        on_init = nvlsp.on_init,
+        capabilities = nvlsp.capabilities,
+        filetypes = { "java" },
+      }
+    end,
+  },
+
+  {
+    "smoka7/hop.nvim",
+    version = "*",
+    lazy = false,
+    opts = {
+      keys = "etovxqpdygfblzhckisuran",
+    },
+  },
 }

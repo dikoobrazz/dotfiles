@@ -25,3 +25,5 @@ vim.keymap.set("n", ",ll", "<cmd>HopChar2<cr>", { desc = "Hop search char 2" })
 vim.keymap.set("n", ",p", "<cmd>HopPattern<cr>", { desc = "Hop search pattern" })
 vim.keymap.set("n", ",w", "<cmd>HopWord<cr>", { desc = "Hop search word" })
 vim.keymap.set("n", ",n", "<cmd>HopNodes<cr>", { desc = "Hop search nodes" })
+
+vim.keymap.set("n", ",.", "<cmd> lua MiniFiles.open()<cr>", { desc = "Open file" })

@@ -268,7 +268,8 @@ export PATH=$PATH:$HOME/.config/vifm/scripts
 
 ## Go ##
 export CONFIG_PATH_AUTH_APP=$HOME/Code/Go/src/github.com/jmoloko/youtube/NikolayTuzov/grpc-auth/sso/config/local.yaml
-export CONFIG_PATH=$HOME/Code/Go/src/github.com/jmoloko/youtube/NikolayTuzov/url-shortener/config/local.yaml
+# export CONFIG_PATH=$HOME/Code/Go/src/github.com/jmoloko/youtube/NikolayTuzov/url-shortener/config/local.yaml
+export CONFIG_PATH=$HOME/Code/Go/src/github.com/goget-milk/pet-projects/go-test-task/config/config.yaml
 export PATH="$PATH:$(go env GOPATH)/bin"
 # export SALES_DB_DISABLE_TLS=true
 # export GO111MODULE=on 

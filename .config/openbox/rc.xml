@@ -749,6 +749,11 @@
         <command>ghostty</command>
       </action>
     </keybind>
+    <keybind key="A-t">
+      <action name="Execute">
+        <command>wezterm</command>
+      </action>
+    </keybind>
     <keybind key="W-f">
       <action name="Execute">
         <command>thunar</command>

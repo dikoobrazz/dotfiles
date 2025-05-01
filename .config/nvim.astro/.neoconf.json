@@ -15,15 +15,6 @@
   "lspconfig": {
     "lua_ls": {
       "Lua.format.enable": false
-    },
-    "jdtls": {
-      "java.configuration.runtimes": [
-        {
-          "name": "JavaSE-17",
-          "path": "/home/milk/.sdkman/candidates/java/current/bin/java",
-          "default": true
-        }
-      ]
     }
   }
 }

@@ -41,6 +41,8 @@ exec mpd &
 ## Launch Plank
 #exec plank &
 
+exec copyq &
+
 ## Thunar Daemon
 exec thunar --daemon &
 

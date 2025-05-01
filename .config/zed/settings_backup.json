@@ -7,22 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  // "edit_predictions": {
-  //   "mode": "eager",
-  //   "copilot": {
-  //     "proxy": null,
-  //     "proxy_no_verify": null
-  //   },
-  //   "enabled_in_assistant": false
-  // },
-  "languages": {
-    "Go": {
-      "show_edit_predictions": true
-    }
-    // "Python": {
-    //   "language_servers": ["pyright", "ruff"]
-    // }
-  },
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -34,11 +18,11 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
-  "show_edit_predictions": true,
+  "show_inline_completions": true,
   "assistant": {
     "default_model": {
-      "provider": "mistral",
-      "model": "codestral-latest"
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
     },
     "version": "2"
   },
@@ -49,39 +33,25 @@
   //   },
   //   "version": "2"
   // },
-  "vim_mode": false,
+  "vim_mode": true,
   "ui_font_size": 15,
   "ui_font_family": "JetBrains Mono",
   "relative_line_numbers": true,
   "scrollbar": {
-    "show": "always"
+    "show": "never"
   },
-  "buffer_font_family": "Roboto Mono",
+  "buffer_font_family": "JetBrains Mono",
   "buffer_font_size": 14,
   "tab_size": 2,
   "tabs": {
     "file_icons": true,
-    "git_status": true
+    "git_status": false
   },
-  "tab_bar": {
-    "show": true,
-    "show_nav_history_buttons": false
-  },
-  // "toolbar": {
-  //   "breadcrumbs": false,
-  //   "quick_actions": false,
-  //   "selections_menu": false
+  // "theme": {
+  //   "mode": "system",
+  //   "light": "Catppuccin Macchiato - No Italics",
+  //   "dark": "One Dark"
   // },
-  "inlay_hints": {
-    "enabled": false
-  },
-  "project_panel": {
-    "indent_size": 20
-  },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
   "theme": {
     "mode": "system",
     "light": "Catppuccin Macchiato",
@@ -107,24 +77,6 @@
               "organizeImports": true
             },
             "format": {
-              "enabled": true
-            }
-          }
-        }
-      }
-    },
-    "pyright": {
-      "settings": {
-        "python": {
-          "pythonPath": "env/bin/python"
-        }
-      }
-    },
-    "pylsp": {
-      "settings": {
-        "pylsp": {
-          "plugins": {
-            "rope_autoimport": {
               "enabled": true
             }
           }

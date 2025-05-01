@@ -185,6 +185,7 @@ alias .nv='cd /home/milk/.config/nvim && nvim'
 alias .v='vim ~/.vim/vimrc'
 alias .z='vim ~/.zshrc'
 alias .k='vim ~/.config/kitty/kitty.conf'
+alias .w='nv ~/.config/wezterm/wezterm.lua'
 # alias .t='vim ~/.config/termite/config'
 alias .p='vim ~/.profile'
 # alias .kak='kak ~/.config/kak/kakrc'
@@ -201,7 +202,11 @@ alias as='yay -Ss'
 alias ai='yay -S'
 alias aup='yay -Syyu'
 alias v='vim'
-alias nv='nvim'
+# alias nv='nvim'
+alias nl="NVIM_APPNAME=nvim.lazy nvim"  # LazyVim
+alias nk="NVIM_APPNAME=nvim.kik nvim"  # Kickstart
+alias nc="NVIM_APPNAME=nvim.chad nvim"  # NvChad
+alias na="NVIM_APPNAME=nvim.astro nvim"  # Astro
 alias tm='tmux'
 alias nn='nnn -ead'
 alias sbl='subl3'
@@ -289,5 +294,5 @@ stty -ixon
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
+eval "$(direnv hook zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

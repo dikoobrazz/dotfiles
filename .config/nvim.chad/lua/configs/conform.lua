@@ -8,6 +8,7 @@ local options = {
     json = { "prettier" },
     yaml = { "yamlfmt" },
     toml = { "taplo" },
+    python = { "ruff", "black", "isort" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
@@ -30,7 +31,7 @@ local options = {
 local conform = require "conform"
 
 vim.api.nvim_create_autocmd("BufWritePre", {
-  pattern = { "*.go", "*.lua", "*.sql", "*.json", "*.yaml", "*.toml" },
+  pattern = { "*.go", "*.lua", "*.sql", "*.json", "*.yaml", "*.toml", "*.py" },
   callback = function(args)
     conform.format { bufnr = args.buf }
   end,

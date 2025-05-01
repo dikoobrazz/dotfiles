@@ -31,6 +31,7 @@ return {
         "yaml",
         "json",
         "java",
+        "python",
       },
     },
   },
@@ -53,6 +54,10 @@ return {
         "jsonnetfmt",
         "taplo",
         "jdtls",
+        "python-lsp-server",
+        "pyright",
+        "django-template-lsp",
+        "ruff",
         -- "yaml-language-server",
         -- "dockerfile-language-server",
       },
@@ -147,6 +152,19 @@ return {
     lazy = false,
     opts = {
       keys = "etovxqpdygfblzhckisuran",
+    },
+  },
+  {
+    "linux-cultist/venv-selector.nvim",
+    dependencies = { "neovim/nvim-lspconfig" },
+    opts = {
+      search_venv_managers = true,
+      search_workspace = true,
+      path = ".", -- Ищет .venv в текущем проекте
+      name = "env",
+    },
+    keys = {
+      { "<leader>cv", "<cmd>VenvSelect<cr>", desc = "Select VirtualEnv" },
     },
   },
 }

@@ -1,28 +1,18 @@
 return {
-  {
-    "nvim-treesitter/nvim-treesitter",
-    opts = {
-      ensure_installed = {
-        "bash",
-        "html",
-        "javascript",
-        "json",
-        "lua",
-        "markdown",
-        "markdown_inline",
-        "python",
-        "query",
-        "regex",
-        "tsx",
-        "typescript",
-        "vim",
-        "yaml",
-        "json",
-        "toml",
-        "sql",
-        "java",
-        "go",
-      },
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "java",
+      "go",
+      "sql",
+      "toml",
+      "json",
+      "yaml",
+      "vim",
+      "markdown",
+      "lua",
+      "bash",
+      "python",
     },
   },
 }

@@ -9,6 +9,7 @@ local servers = {
   "gopls",
   "sqlls",
   "yamlls",
+  "pylsp",
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 

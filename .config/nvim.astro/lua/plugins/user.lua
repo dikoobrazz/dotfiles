@@ -48,11 +48,33 @@ return {
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   {
     "L3MON4D3/LuaSnip",
+    dependencies = { "rafamadriz/friendly-snippets" },
     config = function(plugin, opts)
       require "astronvim.plugins.configs.luasnip"(plugin, opts) -- include the default astronvim config that calls the setup call
       -- add more custom luasnip configuration such as filetype extend or custom snippets
       local luasnip = require "luasnip"
       luasnip.filetype_extend("javascript", { "javascriptreact" })
+    end,
+    conf = function(_, opts)
+      if opts then require("luasnip").config.setup(opts) end
+      vim.tbl_map(
+        function(type) require("luasnip.loaders.from_" .. type).lazy_load() end,
+        { "vscode", "snipmate", "lua" }
+      )
+      -- friendly-snippets - enable standardized comments snippets
+      require("luasnip").filetype_extend("typescript", { "tsdoc" })
+      require("luasnip").filetype_extend("javascript", { "jsdoc" })
+      require("luasnip").filetype_extend("lua", { "luadoc" })
+      require("luasnip").filetype_extend("python", { "pydoc" })
+      require("luasnip").filetype_extend("rust", { "rustdoc" })
+      require("luasnip").filetype_extend("cs", { "csharpdoc" })
+      require("luasnip").filetype_extend("java", { "javadoc" })
+      require("luasnip").filetype_extend("c", { "cdoc" })
+      require("luasnip").filetype_extend("cpp", { "cppdoc" })
+      require("luasnip").filetype_extend("php", { "phpdoc" })
+      require("luasnip").filetype_extend("kotlin", { "kdoc" })
+      require("luasnip").filetype_extend("ruby", { "rdoc" })
+      require("luasnip").filetype_extend("sh", { "shelldoc" })
     end,
   },
 
@@ -85,6 +107,7 @@ return {
       )
     end,
   },
+  { "rafamadriz/friendly-snippets", lazy = false },
   { "kvrohit/substrata.nvim", lazy = false },
   { "davidosomething/vim-colors-meh", lazy = false },
   { "folke/tokyonight.nvim", lazy = false },
@@ -94,9 +117,47 @@ return {
   { "AlexvZyl/nordic.nvim", lazy = false },
   { "rmehri01/onenord.nvim", lazy = false },
   { "nordtheme/vim", lazy = false },
+  { "EdenEast/nightfox.nvim", lazy = false },
+  { "savq/melange-nvim", lazy = false },
+  { "embark-theme/vim", name = "embark", lazy = false },
+  { "ellisonleao/gruvbox.nvim", lazy = false, priority = 1000 },
+  { "Luxed/ayu-vim", lazy = false, priority = 1000 },
+
   {
-    'catppuccin/nvim',
-    name = 'catppuccin',
+    "yorik1984/newpaper.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "vague2k/vague.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "killitar/obscure.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
+    "cpea2506/one_monokai.nvim",
+    lazy = false,
+  },
+  {
+    "NTBBloodbath/doom-one.nvim",
+    lazy = false,
+    priority = 1000,
+    setup = function() end,
+  },
+  {
+    "HoNamDuong/hybrid.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
     lazy = false,
   },
   {
@@ -136,5 +197,10 @@ return {
         },
       }
     end,
+  },
+  {
+    "thesimonho/kanagawa-paper.nvim",
+    lazy = false,
+    opts = {},
   },
 }

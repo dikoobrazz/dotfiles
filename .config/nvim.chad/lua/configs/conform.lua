@@ -10,7 +10,7 @@ local options = {
     toml = { "taplo" },
     python = { "ruff", "black", "isort" },
     -- css = { "prettier" },
-    -- html = { "prettier" },
+    html = { "prettier", "htmx-lsp" },
   },
 
   -- format_on_save = {
@@ -31,7 +31,7 @@ local options = {
 local conform = require "conform"
 
 vim.api.nvim_create_autocmd("BufWritePre", {
-  pattern = { "*.go", "*.lua", "*.sql", "*.json", "*.yaml", "*.toml", "*.py" },
+  pattern = { "*.go", "*.lua", "*.sql", "*.json", "*.yaml", "*.toml", "*.py", "*.html" },
   callback = function(args)
     conform.format { bufnr = args.buf }
   end,

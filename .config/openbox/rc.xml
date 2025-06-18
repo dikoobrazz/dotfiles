@@ -25,8 +25,8 @@
   </placement>
   <!-- Theme -->
   <theme>
-    <name>OB-Manhattan</name>
-    <titleLayout>LIMC</titleLayout>
+    <name>OB-Arc-Carbon</name>
+    <titleLayout>CLM</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
@@ -96,7 +96,7 @@
   <!-- Margin -->
   <margins>
     <top>10</top>
-    <bottom>48</bottom>
+    <bottom>44</bottom>
     <left>10</left>
     <right>10</right>
   </margins>

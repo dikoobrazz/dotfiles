@@ -7,129 +7,121 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  // "edit_predictions": {
-  //   "mode": "eager",
-  //   "copilot": {
-  //     "proxy": null,
-  //     "proxy_no_verify": null
-  //   },
-  //   "enabled_in_assistant": false
-  // },
-  "languages": {
-    "Go": {
-      "show_edit_predictions": true
-    }
-    // "Python": {
-    //   "language_servers": ["pyright", "ruff"]
-    // }
-  },
-  "edit_predictions": {
-    "mode": "subtle",
-    "copilot": {
-      "proxy": null,
-      "proxy_no_verify": null
+    "languages": {
+        "Go": {
+            "show_edit_predictions": false
+        },
+        "Python": {
+            "language_servers": ["ruff"]
+        }
     },
-    "enabled_in_assistant": false
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
-  "show_edit_predictions": true,
-  "assistant": {
-    "default_model": {
-      "provider": "mistral",
-      "model": "codestral-latest"
+
+    "edit_predictions": {
+        "mode": "eager",
+        "copilot": {
+            "proxy": null,
+            "proxy_no_verify": null
+        },
+        "enabled_in_text_threads": false
     },
-    "version": "2"
-  },
-  // "assistant": {
-  //   "default_model": {
-  //     "provider": "copilot_chat",
-  //     "model": "gpt-4o"
-  //   },
-  //   "version": "2"
-  // },
-  "vim_mode": false,
-  "ui_font_size": 15,
-  "ui_font_family": "JetBrains Mono",
-  "relative_line_numbers": true,
-  "scrollbar": {
-    "show": "always"
-  },
-  "buffer_font_family": "Roboto Mono",
-  "buffer_font_size": 14,
-  "tab_size": 2,
-  "tabs": {
-    "file_icons": true,
-    "git_status": true
-  },
-  "tab_bar": {
-    "show": true,
-    "show_nav_history_buttons": false
-  },
-  // "toolbar": {
-  //   "breadcrumbs": false,
-  //   "quick_actions": false,
-  //   "selections_menu": false
-  // },
-  "inlay_hints": {
-    "enabled": false
-  },
-  "project_panel": {
-    "indent_size": 20
-  },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Macchiato",
-    "dark": "Xcode High Contrast Darker"
-  },
-  "icon_theme": "Catppuccin Latte",
-  "lsp": {
-    "java": {
-      "settings": {
-        "java.jdt.ls.lombokSupport.enabled:": true
-      }
+    "features": {
+        // "edit_prediction_provider": "zed"
+        "edit_prediction_provider": "supermaven"
     },
-    "jdtls": {
-      "initialization_options": {
-        "settings": {
-          "jdt": {
-            "ls": {
-              "lombokSupport": {
-                "enabled": true // Set this to true to enable lombok support
-              }
+    "show_edit_predictions": true,
+    "agent": {
+        "always_allow_tool_actions": false,
+        "default_model": {
+            "provider": "mistral",
+            "model": "codestral-latest"
+        },
+        "version": "2"
+    },
+    // "assistant": {
+    //   "default_model": {
+    //     "provider": "copilot_chat",
+    //     "model": "gpt-4o"
+    //   },
+    //   "version": "2"
+    // },
+    "context_servers": {
+        "Context7": {
+            "command": {
+                "path": "npx",
+                "args": ["-y", "@upstash/context7-mcp@latest"]
             },
-            "saveActions": {
-              "organizeImports": true
-            },
-            "format": {
-              "enabled": true
-            }
-          }
+            "settings": {}
         }
-      }
     },
-    "pyright": {
-      "settings": {
-        "python": {
-          "pythonPath": "env/bin/python"
-        }
-      }
+    "vim_mode": false,
+    "ui_font_size": 15,
+    "ui_font_family": "JetBrains Mono",
+    "relative_line_numbers": true,
+    "scrollbar": {
+        "show": "always"
     },
-    "pylsp": {
-      "settings": {
-        "pylsp": {
-          "plugins": {
-            "rope_autoimport": {
-              "enabled": true
+    "buffer_font_family": "Roboto Mono",
+    "buffer_font_size": 15.5,
+    "tab_size": 4,
+    "tabs": {
+        "file_icons": true,
+        "git_status": true
+    },
+    "tab_bar": {
+        "show": true,
+        "show_nav_history_buttons": false
+    },
+
+    "inlay_hints": {
+        "enabled": false
+    },
+    "project_panel": {
+        "indent_size": 20
+    },
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "theme": {
+        "mode": "system",
+        "light": "Nordic",
+        "dark": "Xcode High Contrast Darker"
+    },
+    "icon_theme": "Catppuccin Latte",
+    "lsp": {
+        "java": {
+            "settings": {
+                "java.jdt.ls.lombokSupport.enabled:": true
             }
-          }
+        },
+        "jdtls": {
+            "initialization_options": {
+                "settings": {
+                    "jdt": {
+                        "ls": {
+                            "lombokSupport": {
+                                "enabled": true // Set this to true to enable lombok support
+                            }
+                        },
+                        "saveActions": {
+                            "organizeImports": true
+                        },
+                        "format": {
+                            "enabled": true
+                        }
+                    }
+                }
+            }
+        },
+        "language_overrides": {
+            "HTML": {
+                "format_on_save": {
+                    "external": {
+                        "command": "djhtml",
+                        "arguments": ["-"]
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }

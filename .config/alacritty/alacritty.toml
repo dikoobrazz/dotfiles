@@ -55,12 +55,14 @@ general.import = ["/home/milk/.config/alacritty/dracula.toml"]
 shape = "Beam"
 
 [font]
-size = 10.5
+size = 11
 
 [font.normal]
 # family = "spacemono"
-family = "JetBrains Mono"
-# family = "Source Code Pro"
+# family = "JetBrains Mono"
+# family = "Roboto Mono"
+family = "Input Mono"
+# family = "Source Code Pro Medium"
 # family = "Sometype Mono"
 # family = "Courier New"
 # family = "Cascadia Code"

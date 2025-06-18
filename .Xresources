@@ -7,7 +7,9 @@ Xft.lcdfilter:lcddefault
 
 ! st.font:RobotoMono Nerd Font:style:medium:pixelsize=14
 ! st.font:Victor Mono:style:medium:pixelsize=14
-st.font:JetBrains Mono:style:medium:pixelsize=14
+! st.font:JetBrains Mono:style:medium:pixelsize=14.5
+st.font:Source Code Pro:style:medium:pixelsize=14.5
+! st.font:Input Mono:style:medium:pixelsize=14.5
 
 ! window padding
 st.borderpx:10

@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
@@ -32,6 +32,7 @@ return {
       },
       filename = {
         [".foorc"] = "fooscript",
+        -- [".html"] = "htmldjango",
       },
       pattern = {
         [".*/etc/foo/.*"] = "fooscript",
@@ -50,6 +51,8 @@ return {
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
+        newpaper_style = "dark",
+        ayucolor = "mirage",
       },
     },
     -- Mappings can be configured through AstroCore as well.
